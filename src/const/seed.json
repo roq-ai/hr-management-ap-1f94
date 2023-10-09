@@ -1,0 +1,2722 @@
+[
+  {
+    "employee": [
+      {
+        "id": "7d8f1a4b-41d0-4701-80df-36fe9cfe4a48",
+        "employee_number": 73166,
+        "hire_date": "2023-10-08T18:18:24.003Z",
+        "job_title": "Manager",
+        "department": "Marketing",
+        "salary": 26024,
+        "created_at": "2023-10-09T01:39:01.163Z",
+        "updated_at": "2023-10-09T09:17:37.959Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "888a5f70-fbce-4cc9-aafa-592e8706c851",
+        "employee_number": 20921,
+        "hire_date": "2023-10-08T16:32:54.204Z",
+        "job_title": "Engineer",
+        "department": "Engineering",
+        "salary": 93647,
+        "created_at": "2023-10-08T20:59:05.420Z",
+        "updated_at": "2023-10-08T18:36:04.603Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f93e3246-bf51-4bf3-b562-aa0fdf657e0e",
+        "employee_number": 54897,
+        "hire_date": "2023-10-08T22:49:47.654Z",
+        "job_title": "Sales Representative",
+        "department": "Sales",
+        "salary": 57852,
+        "created_at": "2023-10-08T13:55:32.285Z",
+        "updated_at": "2023-10-09T06:08:35.099Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8530aec5-e9a8-4aa7-ad78-33581a6e7ff9",
+        "employee_number": 98252,
+        "hire_date": "2023-10-08T21:14:31.509Z",
+        "job_title": "Accountant",
+        "department": "Finance",
+        "salary": 57470,
+        "created_at": "2023-10-08T21:03:56.876Z",
+        "updated_at": "2023-10-08T18:08:13.554Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d821502f-9275-496f-8947-a434f26f0cef",
+        "employee_number": 46579,
+        "hire_date": "2023-10-08T18:32:02.819Z",
+        "job_title": "HR Specialist",
+        "department": "Human Resources",
+        "salary": 28418,
+        "created_at": "2023-10-08T22:54:07.980Z",
+        "updated_at": "2023-10-09T08:17:42.608Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "03c70dc6-13d5-45ae-9186-76faf4156541",
+        "name": "Leadership Workshop",
+        "description": "Improve leadership skills",
+        "start_date": "2023-10-08T15:06:25.734Z",
+        "end_date": "2023-10-09T07:49:18.927Z",
+        "location": "New York",
+        "created_at": "2023-10-08T22:16:54.579Z",
+        "updated_at": "2023-10-09T09:04:26.201Z",
+        "employee_id": "888a5f70-fbce-4cc9-aafa-592e8706c851"
+      },
+      {
+        "id": "8f942635-2dbb-469d-aeb3-992513ed5c78",
+        "name": "Technical Training",
+        "description": "Enhance technical knowledge",
+        "start_date": "2023-10-08T19:23:46.734Z",
+        "end_date": "2023-10-08T20:41:16.173Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-09T01:16:21.402Z",
+        "updated_at": "2023-10-08T20:03:15.605Z",
+        "employee_id": "8530aec5-e9a8-4aa7-ad78-33581a6e7ff9"
+      },
+      {
+        "id": "97045449-67a0-439b-b6bc-702a2a575009",
+        "name": "Sales Techniques",
+        "description": "Master sales strategies",
+        "start_date": "2023-10-09T05:17:26.581Z",
+        "end_date": "2023-10-09T09:03:36.964Z",
+        "location": "Chicago",
+        "created_at": "2023-10-09T03:46:12.843Z",
+        "updated_at": "2023-10-08T16:15:31.344Z",
+        "employee_id": "7d8f1a4b-41d0-4701-80df-36fe9cfe4a48"
+      },
+      {
+        "id": "f82d80e0-89cd-4a6d-a848-bf4941188a62",
+        "name": "Financial Management",
+        "description": "Learn financial analysis",
+        "start_date": "2023-10-08T23:12:49.412Z",
+        "end_date": "2023-10-09T12:22:24.621Z",
+        "location": "London",
+        "created_at": "2023-10-09T00:43:49.996Z",
+        "updated_at": "2023-10-09T00:08:18.320Z",
+        "employee_id": "d821502f-9275-496f-8947-a434f26f0cef"
+      },
+      {
+        "id": "b3ffd732-47eb-4cc3-80e5-a43a9d233939",
+        "name": "Conflict Resolution",
+        "description": "Resolve conflicts effectively",
+        "start_date": "2023-10-08T20:40:48.162Z",
+        "end_date": "2023-10-09T09:29:48.756Z",
+        "location": "Tokyo",
+        "created_at": "2023-10-09T00:19:17.144Z",
+        "updated_at": "2023-10-08T18:51:06.287Z",
+        "employee_id": "d821502f-9275-496f-8947-a434f26f0cef"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "46c9bb27-a2f0-4dba-bb78-673be90a8f5b",
+        "review_date": "2023-10-08T13:59:33.687Z",
+        "reviewer": "Manager A",
+        "rating": 40382,
+        "comments": "Excellent performance",
+        "created_at": "2023-10-09T11:55:02.791Z",
+        "updated_at": "2023-10-09T00:55:21.571Z",
+        "employee_id": "d821502f-9275-496f-8947-a434f26f0cef"
+      },
+      {
+        "id": "8f12943f-aaa5-4cb2-b1ff-5726f9f722a1",
+        "review_date": "2023-10-08T23:37:23.401Z",
+        "reviewer": "Manager B",
+        "rating": 64818,
+        "comments": "Room for improvement",
+        "created_at": "2023-10-09T08:14:51.654Z",
+        "updated_at": "2023-10-09T00:27:03.156Z",
+        "employee_id": "8530aec5-e9a8-4aa7-ad78-33581a6e7ff9"
+      },
+      {
+        "id": "c0fa1e1c-9421-4530-926f-1b1958747cd9",
+        "review_date": "2023-10-09T04:49:27.401Z",
+        "reviewer": "Manager C",
+        "rating": 7496,
+        "comments": "Consistently exceeds expectations",
+        "created_at": "2023-10-09T02:34:06.001Z",
+        "updated_at": "2023-10-08T22:37:31.989Z",
+        "employee_id": "d821502f-9275-496f-8947-a434f26f0cef"
+      },
+      {
+        "id": "67bad730-f267-4a05-a87d-f4793afcaa00",
+        "review_date": "2023-10-09T09:21:41.475Z",
+        "reviewer": "Manager D",
+        "rating": 21630,
+        "comments": "Great team player",
+        "created_at": "2023-10-08T17:10:48.287Z",
+        "updated_at": "2023-10-09T05:00:44.582Z",
+        "employee_id": "8530aec5-e9a8-4aa7-ad78-33581a6e7ff9"
+      },
+      {
+        "id": "2ad239ee-20fa-411d-9e11-b77e4542e689",
+        "review_date": "2023-10-08T22:02:37.832Z",
+        "reviewer": "Manager E",
+        "rating": 48837,
+        "comments": "Attention to detail",
+        "created_at": "2023-10-09T05:55:46.771Z",
+        "updated_at": "2023-10-09T05:48:24.502Z",
+        "employee_id": "8530aec5-e9a8-4aa7-ad78-33581a6e7ff9"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "9f459e85-b22a-449c-9719-e182eeb3377a",
+        "name": "Health Insurance",
+        "description": "Comprehensive health coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-09T01:51:28.473Z",
+        "end_date": "2023-10-09T01:06:30.824Z",
+        "created_at": "2023-10-08T22:09:58.307Z",
+        "updated_at": "2023-10-08T21:22:32.490Z",
+        "employee_id": "d821502f-9275-496f-8947-a434f26f0cef"
+      },
+      {
+        "id": "67acf5dc-9485-4719-8581-98e0a9eb3b30",
+        "name": "Retirement Plan",
+        "description": "Secure your future with a retirement plan",
+        "eligibility_criteria": "Minimum employment duration of 6 months",
+        "start_date": "2023-10-08T20:15:10.386Z",
+        "end_date": "2023-10-08T15:51:33.970Z",
+        "created_at": "2023-10-09T07:31:30.998Z",
+        "updated_at": "2023-10-09T10:05:31.552Z",
+        "employee_id": "888a5f70-fbce-4cc9-aafa-592e8706c851"
+      },
+      {
+        "id": "ea4c4b5e-b0dd-44d4-b34d-9ee44327899e",
+        "name": "Paid Time Off",
+        "description": "Enjoy paid time off for work-life balance",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-08T16:16:42.053Z",
+        "end_date": "2023-10-09T05:56:51.588Z",
+        "created_at": "2023-10-08T22:32:08.503Z",
+        "updated_at": "2023-10-08T21:58:05.650Z",
+        "employee_id": "f93e3246-bf51-4bf3-b562-aa0fdf657e0e"
+      },
+      {
+        "id": "3eedb684-e5d1-470c-af30-f95637ca06ba",
+        "name": "Employee Discounts",
+        "description": "Exclusive discounts for employees",
+        "eligibility_criteria": "Based on performance",
+        "start_date": "2023-10-08T23:37:58.896Z",
+        "end_date": "2023-10-09T11:23:33.601Z",
+        "created_at": "2023-10-09T08:17:11.109Z",
+        "updated_at": "2023-10-09T05:51:40.286Z",
+        "employee_id": "d821502f-9275-496f-8947-a434f26f0cef"
+      },
+      {
+        "id": "79faea3e-cc39-4651-af79-9a20ef985d63",
+        "name": "Professional Development",
+        "description": "Opportunities for professional growth",
+        "eligibility_criteria": "Available to all",
+        "start_date": "2023-10-09T06:18:59.004Z",
+        "end_date": "2023-10-09T13:27:40.084Z",
+        "created_at": "2023-10-08T23:43:16.289Z",
+        "updated_at": "2023-10-09T04:52:47.028Z",
+        "employee_id": "7d8f1a4b-41d0-4701-80df-36fe9cfe4a48"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ce62b02d-b50c-4e06-bea9-a9474d713bf1",
+        "email": "Giles_Schiller@roq.tech",
+        "firstName": "Jaunita",
+        "lastName": "Blick-Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/768.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "35101aed-3575-44f0-8ebe-6a8ff5f6d5aa",
+        "email": "Annie_Bechtelar@roq.tech",
+        "firstName": "Deja",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/762.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36738ab9-c173-447b-a4c4-79c446997647",
+        "email": "Marcellus_Gerhold@roq.tech",
+        "firstName": "Anissa",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/890.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b98c458-4f43-4b35-85ec-3fdb3fcbddd4",
+        "email": "Titus37@roq.tech",
+        "firstName": "Ulices",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23144590",
+        "tenantId": null
+      },
+      {
+        "reference": "47dc4bb8-4be9-483f-bbe7-1249fb42383d",
+        "email": "Vella_Turcotte@roq.tech",
+        "firstName": "Keira",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "dc9cd6a2-e249-492e-a219-033f28049191",
+        "employee_number": 96758,
+        "hire_date": "2023-10-09T02:59:25.315Z",
+        "job_title": "Software Engineer",
+        "department": "Engineering",
+        "salary": 86236,
+        "created_at": "2023-10-08T15:08:34.012Z",
+        "updated_at": "2023-10-09T02:51:58.632Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b6afda3-6276-486f-8249-015d3bbeeee5",
+        "employee_number": 26504,
+        "hire_date": "2023-10-09T04:27:10.090Z",
+        "job_title": "Marketing Manager",
+        "department": "Marketing",
+        "salary": 62527,
+        "created_at": "2023-10-09T09:14:45.381Z",
+        "updated_at": "2023-10-08T21:50:04.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e4c988f-c3ac-4377-abbe-3c866dca06da",
+        "employee_number": 71538,
+        "hire_date": "2023-10-08T20:53:42.366Z",
+        "job_title": "Sales Representative",
+        "department": "Sales",
+        "salary": 39343,
+        "created_at": "2023-10-09T00:20:41.930Z",
+        "updated_at": "2023-10-09T09:01:25.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "630323d2-f41b-426a-a584-3ae3d5e9fe5f",
+        "employee_number": 15064,
+        "hire_date": "2023-10-08T18:13:06.458Z",
+        "job_title": "Human Resources Specialist",
+        "department": "Human Resources",
+        "salary": 27829,
+        "created_at": "2023-10-08T14:31:28.132Z",
+        "updated_at": "2023-10-09T02:41:58.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e",
+        "employee_number": 85989,
+        "hire_date": "2023-10-09T05:45:05.253Z",
+        "job_title": "Financial Analyst",
+        "department": "Finance",
+        "salary": 71075,
+        "created_at": "2023-10-09T10:07:12.747Z",
+        "updated_at": "2023-10-09T01:42:43.323Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "5bd10e36-1d20-46a6-8298-1ef46515e31c",
+        "name": "Leadership Training",
+        "description": "Enhance leadership abilities",
+        "start_date": "2023-10-08T22:59:57.168Z",
+        "end_date": "2023-10-08T15:41:42.465Z",
+        "location": "New York",
+        "created_at": "2023-10-09T01:52:52.055Z",
+        "updated_at": "2023-10-09T06:05:51.491Z",
+        "employee_id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e"
+      },
+      {
+        "id": "9944a2da-553e-4ab2-a23d-1686e97bf040",
+        "name": "Technical Skills Workshop",
+        "description": "Improve technical skills",
+        "start_date": "2023-10-09T06:45:45.914Z",
+        "end_date": "2023-10-08T17:08:24.821Z",
+        "location": "Los Angeles",
+        "created_at": "2023-10-09T07:18:12.234Z",
+        "updated_at": "2023-10-09T04:20:00.015Z",
+        "employee_id": "2e4c988f-c3ac-4377-abbe-3c866dca06da"
+      },
+      {
+        "id": "53d5d9d5-75ce-415c-8600-2d5acafce3ef",
+        "name": "Communication Skills Seminar",
+        "description": "Develop effective communication skills",
+        "start_date": "2023-10-09T08:18:47.596Z",
+        "end_date": "2023-10-09T02:52:56.685Z",
+        "location": "Chicago",
+        "created_at": "2023-10-09T09:17:35.294Z",
+        "updated_at": "2023-10-09T13:28:44.036Z",
+        "employee_id": "2e4c988f-c3ac-4377-abbe-3c866dca06da"
+      },
+      {
+        "id": "77305f59-2da2-4a69-9841-35c9f2283cca",
+        "name": "Project Management Course",
+        "description": "Learn project management techniques",
+        "start_date": "2023-10-09T11:10:31.026Z",
+        "end_date": "2023-10-09T05:59:18.688Z",
+        "location": "Houston",
+        "created_at": "2023-10-09T05:30:18.225Z",
+        "updated_at": "2023-10-08T20:10:40.526Z",
+        "employee_id": "1b6afda3-6276-486f-8249-015d3bbeeee5"
+      },
+      {
+        "id": "f51dedb3-f744-4929-aa16-a974c43322bd",
+        "name": "Sales Training Program",
+        "description": "Enhance sales techniques",
+        "start_date": "2023-10-09T13:09:41.895Z",
+        "end_date": "2023-10-09T03:45:14.321Z",
+        "location": "Miami",
+        "created_at": "2023-10-08T14:19:32.954Z",
+        "updated_at": "2023-10-08T14:32:13.752Z",
+        "employee_id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "02fd27ce-9289-4477-a376-c6430abfd0fe",
+        "review_date": "2023-10-09T09:15:13.008Z",
+        "reviewer": "Manager A",
+        "rating": 9133,
+        "comments": "Exceeded expectations",
+        "created_at": "2023-10-08T19:01:39.504Z",
+        "updated_at": "2023-10-08T23:20:02.843Z",
+        "employee_id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e"
+      },
+      {
+        "id": "07b13411-da6f-4847-a232-c097886b4990",
+        "review_date": "2023-10-08T14:33:54.921Z",
+        "reviewer": "Manager B",
+        "rating": 87560,
+        "comments": "Needs improvement in time management",
+        "created_at": "2023-10-08T20:19:20.532Z",
+        "updated_at": "2023-10-08T18:49:02.469Z",
+        "employee_id": "1b6afda3-6276-486f-8249-015d3bbeeee5"
+      },
+      {
+        "id": "bc45476b-16b7-41f2-9d35-e0239b468149",
+        "review_date": "2023-10-09T07:15:59.246Z",
+        "reviewer": "Manager C",
+        "rating": 80541,
+        "comments": "Excellent team player",
+        "created_at": "2023-10-08T15:11:09.606Z",
+        "updated_at": "2023-10-08T18:59:02.039Z",
+        "employee_id": "1b6afda3-6276-486f-8249-015d3bbeeee5"
+      },
+      {
+        "id": "baf06554-3063-4245-afd7-29a98997d4a5",
+        "review_date": "2023-10-09T03:03:28.429Z",
+        "reviewer": "Manager D",
+        "rating": 73877,
+        "comments": "Strong attention to detail",
+        "created_at": "2023-10-09T00:29:36.896Z",
+        "updated_at": "2023-10-09T08:41:17.151Z",
+        "employee_id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e"
+      },
+      {
+        "id": "06ba9ac9-8e0e-4683-9079-90c322c192f5",
+        "review_date": "2023-10-09T12:24:35.924Z",
+        "reviewer": "Manager E",
+        "rating": 20512,
+        "comments": "Demonstrates strong problem-solving skills",
+        "created_at": "2023-10-08T15:59:11.515Z",
+        "updated_at": "2023-10-08T15:39:50.055Z",
+        "employee_id": "dc9cd6a2-e249-492e-a219-033f28049191"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "2617d43f-01bf-41d0-a561-77e772b107a9",
+        "name": "Health Insurance",
+        "description": "Comprehensive health insurance coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-08T18:25:05.284Z",
+        "end_date": "2023-10-09T00:32:17.694Z",
+        "created_at": "2023-10-09T03:31:02.729Z",
+        "updated_at": "2023-10-09T07:43:00.570Z",
+        "employee_id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e"
+      },
+      {
+        "id": "86cc3a91-a232-45c7-a0d7-1fe0bce837af",
+        "name": "Retirement Plan",
+        "description": "Retirement savings plan with employer matching",
+        "eligibility_criteria": "Employees with minimum 1 year of service",
+        "start_date": "2023-10-08T23:53:34.024Z",
+        "end_date": "2023-10-09T11:55:02.164Z",
+        "created_at": "2023-10-08T18:17:30.531Z",
+        "updated_at": "2023-10-08T21:36:02.476Z",
+        "employee_id": "2e4c988f-c3ac-4377-abbe-3c866dca06da"
+      },
+      {
+        "id": "dbe552a7-3688-4946-b5c5-0ec462bb928f",
+        "name": "Paid Time Off",
+        "description": "Generous paid time off policy",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-09T07:35:01.204Z",
+        "end_date": "2023-10-09T01:07:22.301Z",
+        "created_at": "2023-10-09T08:23:53.881Z",
+        "updated_at": "2023-10-08T23:36:32.542Z",
+        "employee_id": "1b6afda3-6276-486f-8249-015d3bbeeee5"
+      },
+      {
+        "id": "f0fd2eaf-b5b2-42ce-b3c4-6633abf4db07",
+        "name": "Flexible Work Schedule",
+        "description": "Flexibility in work hours",
+        "eligibility_criteria": "Employees in specific job roles",
+        "start_date": "2023-10-09T10:58:00.486Z",
+        "end_date": "2023-10-09T12:39:31.301Z",
+        "created_at": "2023-10-09T03:41:59.333Z",
+        "updated_at": "2023-10-08T22:50:53.158Z",
+        "employee_id": "1b6afda3-6276-486f-8249-015d3bbeeee5"
+      },
+      {
+        "id": "13a858a2-5c16-4edb-99a4-013dbc744320",
+        "name": "Employee Wellness Program",
+        "description": "Wellness initiatives to promote employee well-being",
+        "eligibility_criteria": "Employees working 30+ hours per week",
+        "start_date": "2023-10-09T11:50:55.799Z",
+        "end_date": "2023-10-08T14:17:41.083Z",
+        "created_at": "2023-10-08T16:33:04.817Z",
+        "updated_at": "2023-10-09T01:09:36.226Z",
+        "employee_id": "0fbab173-b1e5-4f41-92de-af2b7ffb0c2e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f681c00c-d891-4138-90cb-efa86a4093f1",
+        "email": "Mekhi48@roq.tech",
+        "firstName": "Ebony",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/601.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b79d4e9f-77d2-4ea0-be22-2c48d3584ac8",
+        "email": "Guy29@roq.tech",
+        "firstName": "Josiah",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/147.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c09a5587-ec99-424a-87d3-51770833ac83",
+        "email": "Bruce_Wuckert@roq.tech",
+        "firstName": "Alexys",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99697345",
+        "tenantId": null
+      },
+      {
+        "reference": "bc5266e6-489c-4ae6-bd9a-25d8912ef8f1",
+        "email": "Oren76@roq.tech",
+        "firstName": "Jimmie",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88cef89f-263e-4a62-8e29-4c3cd16c4982",
+        "email": "Adah94@roq.tech",
+        "firstName": "Magdalen",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18166609",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "53e424f6-2f77-457f-954e-b6e81a77a720",
+        "employee_number": 62296,
+        "hire_date": "2023-10-08T14:44:44.194Z",
+        "job_title": "Manager",
+        "department": "Human Resources",
+        "salary": 52556,
+        "created_at": "2023-10-09T06:22:25.128Z",
+        "updated_at": "2023-10-09T12:49:44.058Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d06efc46-aa7d-43d8-be01-d82e2398d957",
+        "employee_number": 47565,
+        "hire_date": "2023-10-09T08:33:41.618Z",
+        "job_title": "Developer",
+        "department": "IT",
+        "salary": 51103,
+        "created_at": "2023-10-09T12:38:20.392Z",
+        "updated_at": "2023-10-08T19:41:41.271Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41dc55ea-d534-489b-aa73-7428895f2f0d",
+        "employee_number": 42027,
+        "hire_date": "2023-10-09T04:44:29.689Z",
+        "job_title": "Designer",
+        "department": "Marketing",
+        "salary": 71462,
+        "created_at": "2023-10-09T04:46:26.051Z",
+        "updated_at": "2023-10-09T00:24:14.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99d8ef9b-ddf8-4e96-8598-5226d335951f",
+        "employee_number": 94284,
+        "hire_date": "2023-10-09T11:03:58.554Z",
+        "job_title": "Analyst",
+        "department": "Finance",
+        "salary": 52834,
+        "created_at": "2023-10-09T06:07:52.746Z",
+        "updated_at": "2023-10-09T02:20:28.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b438c374-2295-488a-ad77-ad4771d5c042",
+        "employee_number": 47138,
+        "hire_date": "2023-10-08T21:13:53.754Z",
+        "job_title": "Sales Executive",
+        "department": "Operations",
+        "salary": 55896,
+        "created_at": "2023-10-09T02:53:32.965Z",
+        "updated_at": "2023-10-09T02:43:02.245Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "43ad21ea-3582-4ae3-904b-076c4bebcf3a",
+        "name": "Leadership Training",
+        "description": "Improve your leadership skills",
+        "start_date": "2023-10-08T18:47:07.539Z",
+        "end_date": "2023-10-08T22:42:51.058Z",
+        "location": "New York",
+        "created_at": "2023-10-08T17:30:18.582Z",
+        "updated_at": "2023-10-08T14:08:36.703Z",
+        "employee_id": "d06efc46-aa7d-43d8-be01-d82e2398d957"
+      },
+      {
+        "id": "a07af2f4-7222-49d0-a7f0-eeb50088fefe",
+        "name": "Technical Workshop",
+        "description": "Enhance your technical knowledge",
+        "start_date": "2023-10-09T08:28:43.207Z",
+        "end_date": "2023-10-08T22:13:50.107Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-09T03:42:20.811Z",
+        "updated_at": "2023-10-09T04:40:03.634Z",
+        "employee_id": "99d8ef9b-ddf8-4e96-8598-5226d335951f"
+      },
+      {
+        "id": "42f3cef3-d5d5-4e49-9ea9-4de13bfe037b",
+        "name": "Communication Skills",
+        "description": "Master effective communication",
+        "start_date": "2023-10-09T09:11:31.677Z",
+        "end_date": "2023-10-09T01:52:04.867Z",
+        "location": "London",
+        "created_at": "2023-10-08T16:04:55.470Z",
+        "updated_at": "2023-10-09T00:34:24.819Z",
+        "employee_id": "41dc55ea-d534-489b-aa73-7428895f2f0d"
+      },
+      {
+        "id": "04d92983-c609-4b78-8d92-6d903a7b245a",
+        "name": "Project Management",
+        "description": "Learn project management techniques",
+        "start_date": "2023-10-08T18:37:19.858Z",
+        "end_date": "2023-10-08T20:20:57.443Z",
+        "location": "Tokyo",
+        "created_at": "2023-10-09T10:58:01.632Z",
+        "updated_at": "2023-10-09T11:02:31.630Z",
+        "employee_id": "d06efc46-aa7d-43d8-be01-d82e2398d957"
+      },
+      {
+        "id": "70f42872-c455-4974-918c-49a7f79dedc0",
+        "name": "Sales Training",
+        "description": "Boost your sales abilities",
+        "start_date": "2023-10-09T12:21:41.218Z",
+        "end_date": "2023-10-09T08:53:47.553Z",
+        "location": "Sydney",
+        "created_at": "2023-10-09T12:00:53.770Z",
+        "updated_at": "2023-10-08T16:46:57.806Z",
+        "employee_id": "41dc55ea-d534-489b-aa73-7428895f2f0d"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "89cea22a-e8ef-47f9-8550-9a43537f856a",
+        "review_date": "2023-10-09T05:12:44.990Z",
+        "reviewer": "Sarah Thompson",
+        "rating": 6125,
+        "comments": "Outstanding performance!",
+        "created_at": "2023-10-08T21:03:05.080Z",
+        "updated_at": "2023-10-09T03:18:01.694Z",
+        "employee_id": "99d8ef9b-ddf8-4e96-8598-5226d335951f"
+      },
+      {
+        "id": "bd5a0f97-1dc1-49bc-b615-48721b93c179",
+        "review_date": "2023-10-09T03:24:11.557Z",
+        "reviewer": "Mark Davis",
+        "rating": 14081,
+        "comments": "Great attention to detail",
+        "created_at": "2023-10-09T04:58:37.089Z",
+        "updated_at": "2023-10-08T23:22:33.030Z",
+        "employee_id": "d06efc46-aa7d-43d8-be01-d82e2398d957"
+      },
+      {
+        "id": "577115e0-6306-40a9-9c26-63e5b9d7c38c",
+        "review_date": "2023-10-09T09:31:22.666Z",
+        "reviewer": "Jennifer Wilson",
+        "rating": 3435,
+        "comments": "Excellent teamwork",
+        "created_at": "2023-10-09T13:07:33.242Z",
+        "updated_at": "2023-10-09T10:54:04.162Z",
+        "employee_id": "53e424f6-2f77-457f-954e-b6e81a77a720"
+      },
+      {
+        "id": "6d7cbc20-758e-4242-97c7-df70c7777e1d",
+        "review_date": "2023-10-08T20:48:24.330Z",
+        "reviewer": "Robert Johnson",
+        "rating": 48667,
+        "comments": "Strong problem-solving skills",
+        "created_at": "2023-10-08T21:34:52.073Z",
+        "updated_at": "2023-10-09T05:37:04.766Z",
+        "employee_id": "41dc55ea-d534-489b-aa73-7428895f2f0d"
+      },
+      {
+        "id": "102d0b6c-c2da-43b6-9395-5b53f4f2d1e1",
+        "review_date": "2023-10-09T11:35:06.303Z",
+        "reviewer": "Laura Brown",
+        "rating": 7024,
+        "comments": "Exceptional communication",
+        "created_at": "2023-10-09T12:03:32.541Z",
+        "updated_at": "2023-10-09T00:02:18.477Z",
+        "employee_id": "b438c374-2295-488a-ad77-ad4771d5c042"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "38fddac5-1cd7-4678-be96-607a40c9537e",
+        "name": "Health Insurance",
+        "description": "Comprehensive health coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-08T17:56:33.895Z",
+        "end_date": "2023-10-09T09:02:47.384Z",
+        "created_at": "2023-10-09T05:05:44.080Z",
+        "updated_at": "2023-10-08T13:54:17.086Z",
+        "employee_id": "d06efc46-aa7d-43d8-be01-d82e2398d957"
+      },
+      {
+        "id": "e120fd49-5529-41d3-a9db-12dac66e5875",
+        "name": "Paid Time Off",
+        "description": "Generous vacation and sick leave",
+        "eligibility_criteria": "Minimum 1 year of service",
+        "start_date": "2023-10-09T09:03:47.242Z",
+        "end_date": "2023-10-09T07:06:10.744Z",
+        "created_at": "2023-10-08T16:46:07.083Z",
+        "updated_at": "2023-10-09T05:18:36.101Z",
+        "employee_id": "b438c374-2295-488a-ad77-ad4771d5c042"
+      },
+      {
+        "id": "a9d12e44-236f-4859-813f-a2761e7b48a9",
+        "name": "Retirement Plan",
+        "description": "401(k) matching",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-09T03:13:07.397Z",
+        "end_date": "2023-10-09T06:14:29.173Z",
+        "created_at": "2023-10-09T13:22:57.499Z",
+        "updated_at": "2023-10-08T17:10:35.888Z",
+        "employee_id": "53e424f6-2f77-457f-954e-b6e81a77a720"
+      },
+      {
+        "id": "50003b93-7f52-42e0-8f4b-39d1effea379",
+        "name": "Flexible Work Schedule",
+        "description": "Work-life balance",
+        "eligibility_criteria": "Flexible for different roles",
+        "start_date": "2023-10-09T01:13:10.424Z",
+        "end_date": "2023-10-09T09:11:10.033Z",
+        "created_at": "2023-10-08T21:57:04.898Z",
+        "updated_at": "2023-10-09T02:54:57.022Z",
+        "employee_id": "53e424f6-2f77-457f-954e-b6e81a77a720"
+      },
+      {
+        "id": "f42e6b63-5c7a-4c88-88d8-28a66737a516",
+        "name": "Professional Development",
+        "description": "Opportunities for growth",
+        "eligibility_criteria": "Performance-based",
+        "start_date": "2023-10-08T21:13:57.079Z",
+        "end_date": "2023-10-09T04:25:09.656Z",
+        "created_at": "2023-10-09T01:01:02.267Z",
+        "updated_at": "2023-10-09T06:38:12.324Z",
+        "employee_id": "d06efc46-aa7d-43d8-be01-d82e2398d957"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "34ea69a6-edb1-4a91-8fdf-bb4c0183ba62",
+        "email": "Wendell_Mayert63@roq.tech",
+        "firstName": "Christelle",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0bc1f06e-fdcf-4a0b-92f9-115bd82104a8",
+        "email": "Bruce37@roq.tech",
+        "firstName": "Candido",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15132780",
+        "tenantId": null
+      },
+      {
+        "reference": "a01e7c95-6859-473c-b37f-71d2396b5604",
+        "email": "Vito83@roq.tech",
+        "firstName": "Liliana",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2288052b-afbd-4506-ad98-f70389a816e0",
+        "email": "Duncan55@roq.tech",
+        "firstName": "Armand",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "419640c3-584e-41cd-b09f-b31db627807e",
+        "email": "Josefa27@roq.tech",
+        "firstName": "Cleve",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77414070",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "03fc137c-1eb7-48a2-9d68-b35ba6d49c87",
+        "employee_number": 96551,
+        "hire_date": "2023-10-09T01:47:58.228Z",
+        "job_title": "Manager",
+        "department": "Marketing",
+        "salary": 29422,
+        "created_at": "2023-10-09T02:13:18.187Z",
+        "updated_at": "2023-10-08T21:14:34.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05e75d9f-c412-48cf-a6c1-29443ead80ae",
+        "employee_number": 53096,
+        "hire_date": "2023-10-08T13:37:07.897Z",
+        "job_title": "Engineer",
+        "department": "IT",
+        "salary": 30790,
+        "created_at": "2023-10-08T21:13:37.135Z",
+        "updated_at": "2023-10-09T13:18:42.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0490e21c-c603-4b85-b686-2f0cdaf3e8a0",
+        "employee_number": 14237,
+        "hire_date": "2023-10-08T18:12:22.779Z",
+        "job_title": "Sales Representative",
+        "department": "Sales",
+        "salary": 80543,
+        "created_at": "2023-10-09T12:20:05.526Z",
+        "updated_at": "2023-10-09T12:41:50.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b8de353-9b57-4707-9f8f-c540d37c0bc8",
+        "employee_number": 13235,
+        "hire_date": "2023-10-09T04:34:03.957Z",
+        "job_title": "Accountant",
+        "department": "Finance",
+        "salary": 51472,
+        "created_at": "2023-10-09T11:28:28.557Z",
+        "updated_at": "2023-10-08T20:52:53.282Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf6ff96f-5df6-4a8b-8ad6-af4caa6bad1f",
+        "employee_number": 45517,
+        "hire_date": "2023-10-08T18:06:05.796Z",
+        "job_title": "Designer",
+        "department": "Design",
+        "salary": 71845,
+        "created_at": "2023-10-09T08:15:30.708Z",
+        "updated_at": "2023-10-08T19:58:33.211Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "f4e0f7f5-709d-45b7-8824-ee2340d8bfe3",
+        "name": "Leadership Workshop",
+        "description": "A workshop to enhance leadership skills",
+        "start_date": "2023-10-09T09:36:22.660Z",
+        "end_date": "2023-10-09T06:27:57.272Z",
+        "location": "New York",
+        "created_at": "2023-10-08T16:53:22.804Z",
+        "updated_at": "2023-10-08T13:40:00.516Z",
+        "employee_id": "7b8de353-9b57-4707-9f8f-c540d37c0bc8"
+      },
+      {
+        "id": "e5a00fb1-8ec2-4bba-894a-52a0f89735fe",
+        "name": "Technical Training",
+        "description": "Training on technical aspects of the job",
+        "start_date": "2023-10-09T09:48:37.203Z",
+        "end_date": "2023-10-09T00:57:29.883Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-08T21:55:16.832Z",
+        "updated_at": "2023-10-08T18:36:59.023Z",
+        "employee_id": "7b8de353-9b57-4707-9f8f-c540d37c0bc8"
+      },
+      {
+        "id": "2fb87bab-2432-4585-a029-18fea2f4d9ea",
+        "name": "Sales Techniques",
+        "description": "Learn effective sales techniques",
+        "start_date": "2023-10-08T21:12:10.726Z",
+        "end_date": "2023-10-09T10:04:47.591Z",
+        "location": "London",
+        "created_at": "2023-10-08T20:42:45.071Z",
+        "updated_at": "2023-10-09T12:15:05.429Z",
+        "employee_id": "05e75d9f-c412-48cf-a6c1-29443ead80ae"
+      },
+      {
+        "id": "3fa42583-cdcc-4bd1-aae7-a65d6707d1ae",
+        "name": "Financial Planning",
+        "description": "Understanding financial planning strategies",
+        "start_date": "2023-10-09T12:43:05.475Z",
+        "end_date": "2023-10-08T19:58:57.071Z",
+        "location": "Tokyo",
+        "created_at": "2023-10-08T16:25:49.239Z",
+        "updated_at": "2023-10-09T13:19:55.641Z",
+        "employee_id": "7b8de353-9b57-4707-9f8f-c540d37c0bc8"
+      },
+      {
+        "id": "2510c359-449e-4314-89e3-482333c1fc6d",
+        "name": "Design Thinking",
+        "description": "Developing creative problem-solving skills",
+        "start_date": "2023-10-09T02:51:07.821Z",
+        "end_date": "2023-10-09T07:07:02.031Z",
+        "location": "Sydney",
+        "created_at": "2023-10-09T08:54:48.264Z",
+        "updated_at": "2023-10-09T12:31:25.003Z",
+        "employee_id": "03fc137c-1eb7-48a2-9d68-b35ba6d49c87"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "84bd6ab9-6d55-4a87-be9d-a05dda609ef4",
+        "review_date": "2023-10-09T08:33:56.219Z",
+        "reviewer": "Manager A",
+        "rating": 76568,
+        "comments": "Excellent performance",
+        "created_at": "2023-10-09T09:14:17.512Z",
+        "updated_at": "2023-10-09T08:15:30.264Z",
+        "employee_id": "0490e21c-c603-4b85-b686-2f0cdaf3e8a0"
+      },
+      {
+        "id": "1677f4ae-03c6-4333-9c7d-a73525317dc4",
+        "review_date": "2023-10-08T22:26:24.945Z",
+        "reviewer": "Manager B",
+        "rating": 74756,
+        "comments": "Needs improvement in communication",
+        "created_at": "2023-10-08T13:30:10.203Z",
+        "updated_at": "2023-10-09T00:10:43.953Z",
+        "employee_id": "0490e21c-c603-4b85-b686-2f0cdaf3e8a0"
+      },
+      {
+        "id": "c039e256-788b-4e6d-ab7d-230bf02cd4f4",
+        "review_date": "2023-10-09T04:08:03.863Z",
+        "reviewer": "Manager C",
+        "rating": 82928,
+        "comments": "Consistently meets targets",
+        "created_at": "2023-10-08T13:49:03.942Z",
+        "updated_at": "2023-10-09T04:01:49.655Z",
+        "employee_id": "7b8de353-9b57-4707-9f8f-c540d37c0bc8"
+      },
+      {
+        "id": "0831bd15-c24a-436c-9e95-3ab871b15f4d",
+        "review_date": "2023-10-09T11:51:51.283Z",
+        "reviewer": "Manager D",
+        "rating": 10242,
+        "comments": "Shows great teamwork",
+        "created_at": "2023-10-09T08:13:42.792Z",
+        "updated_at": "2023-10-09T03:20:46.045Z",
+        "employee_id": "bf6ff96f-5df6-4a8b-8ad6-af4caa6bad1f"
+      },
+      {
+        "id": "c8bbc6e1-f422-49f6-9965-2b478a3d1e81",
+        "review_date": "2023-10-08T13:53:11.857Z",
+        "reviewer": "Manager E",
+        "rating": 8452,
+        "comments": "Attention to detail could be better",
+        "created_at": "2023-10-08T23:23:51.687Z",
+        "updated_at": "2023-10-09T06:00:13.277Z",
+        "employee_id": "03fc137c-1eb7-48a2-9d68-b35ba6d49c87"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "3b7f2743-a7fc-4469-830f-809ecbbf4f24",
+        "name": "Health Insurance",
+        "description": "Comprehensive health insurance coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-09T09:34:04.110Z",
+        "end_date": "2023-10-08T17:15:36.234Z",
+        "created_at": "2023-10-08T17:30:34.836Z",
+        "updated_at": "2023-10-09T11:50:33.615Z",
+        "employee_id": "05e75d9f-c412-48cf-a6c1-29443ead80ae"
+      },
+      {
+        "id": "b7e2edb4-cf37-4d48-ad18-37c549644c89",
+        "name": "Retirement Plan",
+        "description": "Retirement savings plan with employer matching",
+        "eligibility_criteria": "Minimum service tenure of 1 year",
+        "start_date": "2023-10-08T20:01:24.710Z",
+        "end_date": "2023-10-08T23:03:52.924Z",
+        "created_at": "2023-10-09T10:24:55.666Z",
+        "updated_at": "2023-10-09T12:17:24.781Z",
+        "employee_id": "bf6ff96f-5df6-4a8b-8ad6-af4caa6bad1f"
+      },
+      {
+        "id": "d91bdee3-199a-4d1a-a9f0-4ad7bf103871",
+        "name": "Paid Time Off",
+        "description": "Generous paid time off policy",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-08T21:00:30.716Z",
+        "end_date": "2023-10-09T07:04:06.106Z",
+        "created_at": "2023-10-08T21:53:40.256Z",
+        "updated_at": "2023-10-09T10:44:45.471Z",
+        "employee_id": "7b8de353-9b57-4707-9f8f-c540d37c0bc8"
+      },
+      {
+        "id": "47f79402-b759-4f1e-841f-5d02b582bd74",
+        "name": "Professional Development",
+        "description": "Opportunities for professional growth and training",
+        "eligibility_criteria": "Performance-based eligibility",
+        "start_date": "2023-10-09T08:44:52.478Z",
+        "end_date": "2023-10-08T15:16:03.845Z",
+        "created_at": "2023-10-08T20:34:02.806Z",
+        "updated_at": "2023-10-08T14:32:21.660Z",
+        "employee_id": "03fc137c-1eb7-48a2-9d68-b35ba6d49c87"
+      },
+      {
+        "id": "a6ac8e30-0be4-4591-9fa5-f46134385698",
+        "name": "Flexible Work Schedule",
+        "description": "Flexibility in work hours and location",
+        "eligibility_criteria": "Dependent on job level",
+        "start_date": "2023-10-09T10:34:25.776Z",
+        "end_date": "2023-10-09T08:07:41.630Z",
+        "created_at": "2023-10-08T17:16:08.731Z",
+        "updated_at": "2023-10-08T16:59:06.870Z",
+        "employee_id": "05e75d9f-c412-48cf-a6c1-29443ead80ae"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cf8912c7-e43e-4837-8d15-8f202d898b72",
+        "email": "Skylar_Ernser@roq.tech",
+        "firstName": "Freda",
+        "lastName": "Graham-Schowalter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9aff9618-ab46-4ae2-a710-58c9bd5efd58",
+        "email": "Aric_Osinski25@roq.tech",
+        "firstName": "Kristin",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69856922",
+        "tenantId": null
+      },
+      {
+        "reference": "d4811979-36ad-4393-865f-8b79def8f50a",
+        "email": "Niko_Heller52@roq.tech",
+        "firstName": "Alfreda",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47407273",
+        "tenantId": null
+      },
+      {
+        "reference": "2a01d6db-4b19-4440-a99e-80361a5c3201",
+        "email": "Cleve_Batz67@roq.tech",
+        "firstName": "Hunter",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/961.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8ba1d2c-ab7c-4213-a14c-cc9353be6e83",
+        "email": "Beau.Veum7@roq.tech",
+        "firstName": "Lennie",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "3d6c2cfa-5923-4720-96bf-30bd32efffd0",
+        "employee_number": 54570,
+        "hire_date": "2023-10-08T15:01:41.538Z",
+        "job_title": "Software Engineer",
+        "department": "Engineering",
+        "salary": 24358,
+        "created_at": "2023-10-09T03:18:50.417Z",
+        "updated_at": "2023-10-09T05:40:16.352Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23ee9c10-5f88-4d48-8581-7714c309812f",
+        "employee_number": 52189,
+        "hire_date": "2023-10-09T08:29:05.616Z",
+        "job_title": "Sales Manager",
+        "department": "Sales",
+        "salary": 56673,
+        "created_at": "2023-10-09T09:32:15.626Z",
+        "updated_at": "2023-10-08T22:52:29.281Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cd46d5c-05f9-4178-bf91-4f961a7e3d29",
+        "employee_number": 12872,
+        "hire_date": "2023-10-08T18:00:18.688Z",
+        "job_title": "HR Specialist",
+        "department": "Human Resources",
+        "salary": 48206,
+        "created_at": "2023-10-08T19:55:55.277Z",
+        "updated_at": "2023-10-09T06:33:31.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57c70980-3d59-4414-936e-aa1669b5b954",
+        "employee_number": 78069,
+        "hire_date": "2023-10-09T07:55:03.533Z",
+        "job_title": "Operations Analyst",
+        "department": "Operations",
+        "salary": 93954,
+        "created_at": "2023-10-08T16:27:08.602Z",
+        "updated_at": "2023-10-08T23:34:05.927Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e7a4a5e-6775-4caa-83be-b8f56fedc399",
+        "employee_number": 28055,
+        "hire_date": "2023-10-08T22:49:55.163Z",
+        "job_title": "Marketing Coordinator",
+        "department": "Marketing",
+        "salary": 69676,
+        "created_at": "2023-10-09T04:00:08.633Z",
+        "updated_at": "2023-10-08T17:57:44.484Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "a1816afa-2fa3-4ddf-ad05-feeeeae51099",
+        "name": "Introduction to Project Management",
+        "description": "Learn the fundamentals of project management",
+        "start_date": "2023-10-08T14:54:53.856Z",
+        "end_date": "2023-10-08T16:16:13.116Z",
+        "location": "New York",
+        "created_at": "2023-10-09T04:48:54.714Z",
+        "updated_at": "2023-10-08T17:54:35.150Z",
+        "employee_id": "3d6c2cfa-5923-4720-96bf-30bd32efffd0"
+      },
+      {
+        "id": "288e6942-4808-46c3-a79e-dec461562242",
+        "name": "Effective Communication Skills",
+        "description": "Improve your communication skills",
+        "start_date": "2023-10-08T19:57:35.860Z",
+        "end_date": "2023-10-08T14:33:18.807Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-09T13:29:25.670Z",
+        "updated_at": "2023-10-08T20:41:22.670Z",
+        "employee_id": "57c70980-3d59-4414-936e-aa1669b5b954"
+      },
+      {
+        "id": "aa7666be-69ee-46a4-97d1-c985bc0091cb",
+        "name": "Leadership Development Program",
+        "description": "Develop your leadership abilities",
+        "start_date": "2023-10-08T17:11:43.348Z",
+        "end_date": "2023-10-08T17:37:42.111Z",
+        "location": "London",
+        "created_at": "2023-10-09T08:40:20.748Z",
+        "updated_at": "2023-10-09T01:32:25.515Z",
+        "employee_id": "57c70980-3d59-4414-936e-aa1669b5b954"
+      },
+      {
+        "id": "37c3041b-d74a-45ed-9406-cc64e8507a28",
+        "name": "Time Management Workshop",
+        "description": "Enhance your time management skills",
+        "start_date": "2023-10-09T12:01:44.025Z",
+        "end_date": "2023-10-08T22:42:31.259Z",
+        "location": "Tokyo",
+        "created_at": "2023-10-09T04:00:35.308Z",
+        "updated_at": "2023-10-09T08:18:11.243Z",
+        "employee_id": "5cd46d5c-05f9-4178-bf91-4f961a7e3d29"
+      },
+      {
+        "id": "58b00b20-1290-4765-9ffd-2b1472dce63b",
+        "name": "Customer Service Excellence",
+        "description": "Deliver exceptional customer service",
+        "start_date": "2023-10-09T08:20:04.490Z",
+        "end_date": "2023-10-08T14:25:03.174Z",
+        "location": "Sydney",
+        "created_at": "2023-10-09T00:33:21.566Z",
+        "updated_at": "2023-10-08T18:49:17.029Z",
+        "employee_id": "3d6c2cfa-5923-4720-96bf-30bd32efffd0"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "6a5d3465-40b0-4ea7-b973-a38fd4e2414c",
+        "review_date": "2023-10-09T01:13:16.460Z",
+        "reviewer": "Manager A",
+        "rating": 51814,
+        "comments": "Excellent work!",
+        "created_at": "2023-10-09T07:15:03.690Z",
+        "updated_at": "2023-10-09T09:18:10.686Z",
+        "employee_id": "0e7a4a5e-6775-4caa-83be-b8f56fedc399"
+      },
+      {
+        "id": "3cf71013-0bd7-4998-8a37-89621c09f675",
+        "review_date": "2023-10-08T18:19:16.017Z",
+        "reviewer": "Manager B",
+        "rating": 21340,
+        "comments": "Needs improvement in meeting deadlines",
+        "created_at": "2023-10-09T08:57:38.870Z",
+        "updated_at": "2023-10-09T05:54:34.229Z",
+        "employee_id": "0e7a4a5e-6775-4caa-83be-b8f56fedc399"
+      },
+      {
+        "id": "520f2868-1649-45e6-be0d-b355ff3439e1",
+        "review_date": "2023-10-08T14:51:19.714Z",
+        "reviewer": "Manager C",
+        "rating": 30473,
+        "comments": "Great team player",
+        "created_at": "2023-10-08T15:23:54.745Z",
+        "updated_at": "2023-10-09T05:04:00.195Z",
+        "employee_id": "0e7a4a5e-6775-4caa-83be-b8f56fedc399"
+      },
+      {
+        "id": "7ee332ab-d301-453c-89d6-1840125eef7d",
+        "review_date": "2023-10-09T06:00:43.739Z",
+        "reviewer": "Manager D",
+        "rating": 1416,
+        "comments": "Outstanding problem-solving skills",
+        "created_at": "2023-10-09T01:35:28.366Z",
+        "updated_at": "2023-10-09T12:33:24.065Z",
+        "employee_id": "23ee9c10-5f88-4d48-8581-7714c309812f"
+      },
+      {
+        "id": "8cfd979e-e4c9-409e-8918-5396887c7205",
+        "review_date": "2023-10-09T03:02:55.985Z",
+        "reviewer": "Manager E",
+        "rating": 35095,
+        "comments": "Strong attention to detail",
+        "created_at": "2023-10-08T19:31:10.972Z",
+        "updated_at": "2023-10-08T21:21:39.058Z",
+        "employee_id": "57c70980-3d59-4414-936e-aa1669b5b954"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "2d9de911-2993-4a26-a707-b77bb9d7047e",
+        "name": "Health Insurance",
+        "description": "Comprehensive health insurance coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-09T10:51:24.194Z",
+        "end_date": "2023-10-08T16:21:16.528Z",
+        "created_at": "2023-10-09T12:52:21.097Z",
+        "updated_at": "2023-10-09T07:39:52.718Z",
+        "employee_id": "23ee9c10-5f88-4d48-8581-7714c309812f"
+      },
+      {
+        "id": "51cba0aa-bc85-4f2a-be5e-180516ed2f8a",
+        "name": "Retirement Plan",
+        "description": "401(k) retirement savings plan",
+        "eligibility_criteria": "Employees with at least 1 year of service",
+        "start_date": "2023-10-08T21:42:59.235Z",
+        "end_date": "2023-10-08T22:53:35.685Z",
+        "created_at": "2023-10-08T20:18:25.694Z",
+        "updated_at": "2023-10-09T07:04:31.825Z",
+        "employee_id": "5cd46d5c-05f9-4178-bf91-4f961a7e3d29"
+      },
+      {
+        "id": "ae145785-4a75-49a1-ab1a-54a81888a325",
+        "name": "Paid Time Off",
+        "description": "Generous paid time off policy",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-09T10:29:41.111Z",
+        "end_date": "2023-10-08T13:44:31.076Z",
+        "created_at": "2023-10-08T21:44:17.060Z",
+        "updated_at": "2023-10-08T22:01:56.990Z",
+        "employee_id": "0e7a4a5e-6775-4caa-83be-b8f56fedc399"
+      },
+      {
+        "id": "da0a2f38-d691-48a5-8473-0606ef159acd",
+        "name": "Professional Development",
+        "description": "Opportunities for professional growth",
+        "eligibility_criteria": "Employees in specific roles",
+        "start_date": "2023-10-08T22:34:16.551Z",
+        "end_date": "2023-10-09T12:19:50.822Z",
+        "created_at": "2023-10-09T05:17:52.338Z",
+        "updated_at": "2023-10-08T20:02:36.521Z",
+        "employee_id": "23ee9c10-5f88-4d48-8581-7714c309812f"
+      },
+      {
+        "id": "93a461f7-f5a3-4a12-b9fc-146d97991514",
+        "name": "Flexible Work Schedule",
+        "description": "Flexible work hours",
+        "eligibility_criteria": "Employees who meet performance criteria",
+        "start_date": "2023-10-09T05:20:04.040Z",
+        "end_date": "2023-10-08T16:34:52.228Z",
+        "created_at": "2023-10-09T05:37:01.238Z",
+        "updated_at": "2023-10-09T06:46:58.812Z",
+        "employee_id": "5cd46d5c-05f9-4178-bf91-4f961a7e3d29"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "33fb5a6a-8b1b-443b-95ea-2573e1ee5259",
+        "email": "Raoul_Hartmann@roq.tech",
+        "firstName": "Cyrus",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1708134",
+        "tenantId": null
+      },
+      {
+        "reference": "2cfdd7c8-203b-48d5-bce6-b549b80c9178",
+        "email": "Shaun_Volkman@roq.tech",
+        "firstName": "Cordia",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71154692",
+        "tenantId": null
+      },
+      {
+        "reference": "04a0207d-e740-4b33-9cd5-c9e364457711",
+        "email": "Dean.Kuhlman@roq.tech",
+        "firstName": "Oleta",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/25.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65628a63-6b24-42df-971c-f9c9dcd1f373",
+        "email": "Ludie_Lind@roq.tech",
+        "firstName": "King",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32249985",
+        "tenantId": null
+      },
+      {
+        "reference": "0e87c036-0ed5-44bf-b7a0-578ef3a6de17",
+        "email": "Sophie18@roq.tech",
+        "firstName": "Liana",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "edc6bed0-7715-4b34-aca8-57129885f95c",
+        "employee_number": 45671,
+        "hire_date": "2023-10-08T23:21:56.818Z",
+        "job_title": "Software Engineer",
+        "department": "Engineering",
+        "salary": 23332,
+        "created_at": "2023-10-09T13:00:11.318Z",
+        "updated_at": "2023-10-08T21:25:04.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a35a42c-a7b9-42a0-805f-5c628f5bfbe7",
+        "employee_number": 99830,
+        "hire_date": "2023-10-08T17:48:18.150Z",
+        "job_title": "Sales Manager",
+        "department": "Sales",
+        "salary": 30192,
+        "created_at": "2023-10-08T15:20:14.430Z",
+        "updated_at": "2023-10-08T14:22:28.682Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38625d5b-8d37-46c4-9adc-43865d810180",
+        "employee_number": 70756,
+        "hire_date": "2023-10-08T22:41:43.667Z",
+        "job_title": "HR Specialist",
+        "department": "Human Resources",
+        "salary": 87722,
+        "created_at": "2023-10-08T22:21:16.540Z",
+        "updated_at": "2023-10-09T04:28:29.295Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f9dd5aa-113c-498e-8ea7-8a7b95fd1413",
+        "employee_number": 22128,
+        "hire_date": "2023-10-09T02:08:06.013Z",
+        "job_title": "Marketing Analyst",
+        "department": "Marketing",
+        "salary": 62175,
+        "created_at": "2023-10-09T08:15:37.870Z",
+        "updated_at": "2023-10-08T17:53:50.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae22dc0c-aad5-4b2a-938d-ea67890e05bc",
+        "employee_number": 33123,
+        "hire_date": "2023-10-08T22:01:09.407Z",
+        "job_title": "Operations Coordinator",
+        "department": "Operations",
+        "salary": 32108,
+        "created_at": "2023-10-08T15:34:27.742Z",
+        "updated_at": "2023-10-09T01:23:30.882Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "59d1bed2-c2cd-41a7-bd3c-55a44e3dc9c1",
+        "name": "Leadership Training",
+        "description": "Enhance leadership skills",
+        "start_date": "2023-10-09T11:09:53.356Z",
+        "end_date": "2023-10-09T04:06:20.083Z",
+        "location": "New York",
+        "created_at": "2023-10-09T02:04:47.811Z",
+        "updated_at": "2023-10-08T17:39:11.685Z",
+        "employee_id": "edc6bed0-7715-4b34-aca8-57129885f95c"
+      },
+      {
+        "id": "a9d45a98-75e0-4bc8-8f8c-b70ce0f8614c",
+        "name": "Technical Workshop",
+        "description": "Improve technical knowledge",
+        "start_date": "2023-10-08T22:40:48.981Z",
+        "end_date": "2023-10-09T03:49:00.146Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-09T06:46:00.604Z",
+        "updated_at": "2023-10-08T16:24:40.800Z",
+        "employee_id": "9f9dd5aa-113c-498e-8ea7-8a7b95fd1413"
+      },
+      {
+        "id": "b95cf3ee-e8be-47f3-a325-ed403d380514",
+        "name": "Communication Skills",
+        "description": "Develop effective communication",
+        "start_date": "2023-10-09T05:49:39.313Z",
+        "end_date": "2023-10-09T10:50:26.587Z",
+        "location": "London",
+        "created_at": "2023-10-09T08:24:50.397Z",
+        "updated_at": "2023-10-08T18:40:39.193Z",
+        "employee_id": "38625d5b-8d37-46c4-9adc-43865d810180"
+      },
+      {
+        "id": "45f44f43-4f56-46b0-81ed-8c3d6d753b02",
+        "name": "Project Management",
+        "description": "Learn project management techniques",
+        "start_date": "2023-10-08T21:14:09.604Z",
+        "end_date": "2023-10-09T10:25:01.026Z",
+        "location": "Tokyo",
+        "created_at": "2023-10-09T06:44:27.113Z",
+        "updated_at": "2023-10-09T04:08:29.883Z",
+        "employee_id": "5a35a42c-a7b9-42a0-805f-5c628f5bfbe7"
+      },
+      {
+        "id": "fb1a9514-7ab9-4520-93eb-b0a26b944928",
+        "name": "Customer Service Training",
+        "description": "Deliver exceptional customer service",
+        "start_date": "2023-10-09T01:06:55.789Z",
+        "end_date": "2023-10-08T13:39:29.221Z",
+        "location": "Sydney",
+        "created_at": "2023-10-09T00:38:44.112Z",
+        "updated_at": "2023-10-09T03:56:02.773Z",
+        "employee_id": "ae22dc0c-aad5-4b2a-938d-ea67890e05bc"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "6088d0cd-b263-41ea-ab4e-e11aeed2110d",
+        "review_date": "2023-10-09T08:45:32.790Z",
+        "reviewer": "Manager A",
+        "rating": 12359,
+        "comments": "Outstanding performance",
+        "created_at": "2023-10-09T08:36:28.946Z",
+        "updated_at": "2023-10-09T03:31:34.107Z",
+        "employee_id": "9f9dd5aa-113c-498e-8ea7-8a7b95fd1413"
+      },
+      {
+        "id": "8423e53e-4523-450f-9899-19b3c4295528",
+        "review_date": "2023-10-08T15:40:59.973Z",
+        "reviewer": "Manager B",
+        "rating": 46606,
+        "comments": "Needs improvement in time management",
+        "created_at": "2023-10-08T21:37:32.603Z",
+        "updated_at": "2023-10-08T15:22:25.618Z",
+        "employee_id": "ae22dc0c-aad5-4b2a-938d-ea67890e05bc"
+      },
+      {
+        "id": "f8a2e50f-533c-4d5d-be1a-b69fc78f4b56",
+        "review_date": "2023-10-09T01:20:48.934Z",
+        "reviewer": "Manager C",
+        "rating": 77776,
+        "comments": "Excellent teamwork",
+        "created_at": "2023-10-09T07:04:17.098Z",
+        "updated_at": "2023-10-09T07:33:36.460Z",
+        "employee_id": "5a35a42c-a7b9-42a0-805f-5c628f5bfbe7"
+      },
+      {
+        "id": "2bdf3f88-acf0-45c6-ad6e-341eb3677751",
+        "review_date": "2023-10-08T18:56:27.342Z",
+        "reviewer": "Manager D",
+        "rating": 23171,
+        "comments": "Great attention to detail",
+        "created_at": "2023-10-09T13:00:40.821Z",
+        "updated_at": "2023-10-08T18:39:13.636Z",
+        "employee_id": "5a35a42c-a7b9-42a0-805f-5c628f5bfbe7"
+      },
+      {
+        "id": "3d69fcc6-bd7f-4da4-be0b-8bf93a81573c",
+        "review_date": "2023-10-08T19:18:52.022Z",
+        "reviewer": "Manager E",
+        "rating": 37562,
+        "comments": "Strong problem-solving skills",
+        "created_at": "2023-10-08T15:39:02.643Z",
+        "updated_at": "2023-10-09T01:27:57.141Z",
+        "employee_id": "38625d5b-8d37-46c4-9adc-43865d810180"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "caed26c5-d754-4b2f-8f1a-567b072613f9",
+        "name": "Health Insurance",
+        "description": "Comprehensive health coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-08T21:17:32.417Z",
+        "end_date": "2023-10-08T21:36:34.286Z",
+        "created_at": "2023-10-08T17:19:24.128Z",
+        "updated_at": "2023-10-09T08:42:18.748Z",
+        "employee_id": "9f9dd5aa-113c-498e-8ea7-8a7b95fd1413"
+      },
+      {
+        "id": "7721da33-9c1e-4e04-a8a7-3d08c407ef43",
+        "name": "Paid Time Off",
+        "description": "Generous vacation and sick leave",
+        "eligibility_criteria": "Minimum employment duration",
+        "start_date": "2023-10-08T19:54:17.026Z",
+        "end_date": "2023-10-08T23:00:49.039Z",
+        "created_at": "2023-10-09T12:41:01.799Z",
+        "updated_at": "2023-10-08T19:05:45.638Z",
+        "employee_id": "ae22dc0c-aad5-4b2a-938d-ea67890e05bc"
+      },
+      {
+        "id": "e11bcfd2-6d2e-4b15-a2a7-efb3666540d3",
+        "name": "Retirement Plan",
+        "description": "Retirement savings options",
+        "eligibility_criteria": "Performance-based",
+        "start_date": "2023-10-09T11:11:04.666Z",
+        "end_date": "2023-10-09T03:49:52.343Z",
+        "created_at": "2023-10-09T02:22:50.512Z",
+        "updated_at": "2023-10-09T03:15:32.711Z",
+        "employee_id": "5a35a42c-a7b9-42a0-805f-5c628f5bfbe7"
+      },
+      {
+        "id": "41acd349-074c-4f13-996f-3de163c76cf0",
+        "name": "Professional Development",
+        "description": "Opportunities for skill enhancement",
+        "eligibility_criteria": "Specific job roles",
+        "start_date": "2023-10-08T13:50:50.709Z",
+        "end_date": "2023-10-08T15:11:31.385Z",
+        "created_at": "2023-10-08T17:11:27.313Z",
+        "updated_at": "2023-10-08T16:09:09.254Z",
+        "employee_id": "ae22dc0c-aad5-4b2a-938d-ea67890e05bc"
+      },
+      {
+        "id": "f518f2c7-6192-40d0-b5e0-310ab8c4e9e9",
+        "name": "Flexible Work Schedule",
+        "description": "Work-life balance",
+        "eligibility_criteria": "Company-wide eligibility",
+        "start_date": "2023-10-09T11:56:18.780Z",
+        "end_date": "2023-10-09T07:41:18.938Z",
+        "created_at": "2023-10-08T22:20:50.549Z",
+        "updated_at": "2023-10-09T02:28:06.320Z",
+        "employee_id": "5a35a42c-a7b9-42a0-805f-5c628f5bfbe7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "201d0f26-f853-41ef-9f29-da118beb5c74",
+        "email": "Hailey98@roq.tech",
+        "firstName": "Elise",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50049441",
+        "tenantId": null
+      },
+      {
+        "reference": "6e668715-e33a-4e65-980b-42069968b7c0",
+        "email": "Clark_Senger@roq.tech",
+        "firstName": "Nellie",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59560422",
+        "tenantId": null
+      },
+      {
+        "reference": "93eec5d8-1f57-4dac-b974-ec6a15d00f89",
+        "email": "Porter_Gleichner15@roq.tech",
+        "firstName": "Asa",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55761454",
+        "tenantId": null
+      },
+      {
+        "reference": "a09f1079-4ee5-46b6-acb2-3afa4ef722da",
+        "email": "Ellen.Harvey58@roq.tech",
+        "firstName": "Jerome",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60204785",
+        "tenantId": null
+      },
+      {
+        "reference": "d60e943b-d5ab-4cf7-b666-e0ae785c7671",
+        "email": "Marion.Monahan@roq.tech",
+        "firstName": "Garett",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74651011",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "eb876815-f7bd-408e-afa3-e6f94435559b",
+        "employee_number": 71658,
+        "hire_date": "2023-10-09T08:26:56.920Z",
+        "job_title": "Manager",
+        "department": "Marketing",
+        "salary": 99212,
+        "created_at": "2023-10-09T07:31:28.300Z",
+        "updated_at": "2023-10-08T21:12:47.600Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7df9ef9-02fd-4bd7-8498-88849fea68a6",
+        "employee_number": 92148,
+        "hire_date": "2023-10-08T22:32:36.036Z",
+        "job_title": "Engineer",
+        "department": "Engineering",
+        "salary": 90586,
+        "created_at": "2023-10-08T22:22:10.833Z",
+        "updated_at": "2023-10-09T09:00:41.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ee42ed2-88ea-48ee-bf19-4ee332e0ddcc",
+        "employee_number": 71872,
+        "hire_date": "2023-10-08T16:54:02.702Z",
+        "job_title": "Sales Representative",
+        "department": "Sales",
+        "salary": 96243,
+        "created_at": "2023-10-09T10:07:11.562Z",
+        "updated_at": "2023-10-08T13:39:42.805Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4c2062a-ac74-48e2-93db-411ce3c16aa7",
+        "employee_number": 73141,
+        "hire_date": "2023-10-08T22:17:55.469Z",
+        "job_title": "Analyst",
+        "department": "Finance",
+        "salary": 9743,
+        "created_at": "2023-10-09T11:14:14.666Z",
+        "updated_at": "2023-10-08T22:55:53.716Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "136ae133-d0a8-4857-a80c-d683109faac1",
+        "employee_number": 3685,
+        "hire_date": "2023-10-09T01:11:31.343Z",
+        "job_title": "Administrator",
+        "department": "Human Resources",
+        "salary": 15568,
+        "created_at": "2023-10-08T22:08:17.136Z",
+        "updated_at": "2023-10-09T08:13:06.691Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "0c285cba-cb00-4dc4-8c6d-c03a4df23860",
+        "name": "Leadership Training",
+        "description": "Enhance leadership skills",
+        "start_date": "2023-10-08T20:49:17.354Z",
+        "end_date": "2023-10-08T13:56:30.886Z",
+        "location": "New York",
+        "created_at": "2023-10-09T07:22:44.715Z",
+        "updated_at": "2023-10-08T17:32:13.685Z",
+        "employee_id": "c4c2062a-ac74-48e2-93db-411ce3c16aa7"
+      },
+      {
+        "id": "8db8d879-7902-4852-8bf1-3b65d3e7163c",
+        "name": "Technical Skills Workshop",
+        "description": "Improve technical expertise",
+        "start_date": "2023-10-09T11:19:43.912Z",
+        "end_date": "2023-10-08T22:23:13.593Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-08T17:41:33.533Z",
+        "updated_at": "2023-10-08T14:20:28.265Z",
+        "employee_id": "eb876815-f7bd-408e-afa3-e6f94435559b"
+      },
+      {
+        "id": "070b8b6c-ac7e-4e85-b31b-41c025958e5e",
+        "name": "Communication Seminar",
+        "description": "Develop effective communication",
+        "start_date": "2023-10-08T20:08:43.509Z",
+        "end_date": "2023-10-08T19:35:57.872Z",
+        "location": "Chicago",
+        "created_at": "2023-10-08T14:36:13.051Z",
+        "updated_at": "2023-10-08T15:57:38.477Z",
+        "employee_id": "eb876815-f7bd-408e-afa3-e6f94435559b"
+      },
+      {
+        "id": "69cb959e-ef73-493d-ace3-96192eadacb2",
+        "name": "Project Management Course",
+        "description": "Learn project management techniques",
+        "start_date": "2023-10-08T23:22:46.787Z",
+        "end_date": "2023-10-08T19:47:40.438Z",
+        "location": "Los Angeles",
+        "created_at": "2023-10-09T12:45:47.471Z",
+        "updated_at": "2023-10-09T12:02:28.591Z",
+        "employee_id": "c4c2062a-ac74-48e2-93db-411ce3c16aa7"
+      },
+      {
+        "id": "2b42f644-5bc5-4eda-b7fc-9a7d2b070a9d",
+        "name": "Team Building Retreat",
+        "description": "Build strong team dynamics",
+        "start_date": "2023-10-09T07:23:58.733Z",
+        "end_date": "2023-10-08T14:06:09.576Z",
+        "location": "Seattle",
+        "created_at": "2023-10-09T05:50:26.134Z",
+        "updated_at": "2023-10-09T05:54:23.514Z",
+        "employee_id": "c4c2062a-ac74-48e2-93db-411ce3c16aa7"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "a58da27b-3aef-4b14-8643-af4fdc5afcbc",
+        "review_date": "2023-10-09T05:11:16.870Z",
+        "reviewer": "Manager A",
+        "rating": 22543,
+        "comments": "Exceeded expectations",
+        "created_at": "2023-10-09T05:50:21.577Z",
+        "updated_at": "2023-10-09T10:00:59.632Z",
+        "employee_id": "136ae133-d0a8-4857-a80c-d683109faac1"
+      },
+      {
+        "id": "9b4b582d-3b79-4449-8bbd-bfaf7e797d89",
+        "review_date": "2023-10-09T03:40:56.749Z",
+        "reviewer": "Manager B",
+        "rating": 95333,
+        "comments": "Needs improvement in communication",
+        "created_at": "2023-10-08T20:28:44.527Z",
+        "updated_at": "2023-10-09T00:54:58.506Z",
+        "employee_id": "c7df9ef9-02fd-4bd7-8498-88849fea68a6"
+      },
+      {
+        "id": "fb1d0ef8-7912-4f8b-ab95-1b20fa881601",
+        "review_date": "2023-10-09T02:43:19.470Z",
+        "reviewer": "Supervisor A",
+        "rating": 40686,
+        "comments": "Demonstrated strong problem-solving skills",
+        "created_at": "2023-10-09T07:10:16.066Z",
+        "updated_at": "2023-10-09T04:46:58.018Z",
+        "employee_id": "eb876815-f7bd-408e-afa3-e6f94435559b"
+      },
+      {
+        "id": "c4c448d1-da76-47d0-9265-f82c6011f73b",
+        "review_date": "2023-10-09T02:16:31.848Z",
+        "reviewer": "Supervisor B",
+        "rating": 19781,
+        "comments": "Collaborates effectively with team members",
+        "created_at": "2023-10-09T11:18:14.683Z",
+        "updated_at": "2023-10-09T13:21:13.785Z",
+        "employee_id": "c4c2062a-ac74-48e2-93db-411ce3c16aa7"
+      },
+      {
+        "id": "d1a827e0-528b-433d-8601-2582c929782c",
+        "review_date": "2023-10-08T21:25:34.756Z",
+        "reviewer": "Team Lead",
+        "rating": 14360,
+        "comments": "Attention to detail could be better",
+        "created_at": "2023-10-09T13:17:33.833Z",
+        "updated_at": "2023-10-09T06:29:56.465Z",
+        "employee_id": "c7df9ef9-02fd-4bd7-8498-88849fea68a6"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "6e37809b-a813-4a0b-bdcc-115e737da514",
+        "name": "Health Insurance",
+        "description": "Comprehensive health coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-09T10:01:04.711Z",
+        "end_date": "2023-10-09T13:00:50.528Z",
+        "created_at": "2023-10-08T14:41:18.223Z",
+        "updated_at": "2023-10-09T11:46:47.276Z",
+        "employee_id": "eb876815-f7bd-408e-afa3-e6f94435559b"
+      },
+      {
+        "id": "fd7a45a6-5d75-46ee-9384-babcfdc6504c",
+        "name": "Retirement Plan",
+        "description": "Secure your future with a retirement plan",
+        "eligibility_criteria": "Minimum service of 1 year",
+        "start_date": "2023-10-08T16:29:59.011Z",
+        "end_date": "2023-10-08T14:38:12.735Z",
+        "created_at": "2023-10-08T23:59:38.053Z",
+        "updated_at": "2023-10-08T19:07:04.913Z",
+        "employee_id": "eb876815-f7bd-408e-afa3-e6f94435559b"
+      },
+      {
+        "id": "7b49a042-dc0f-480a-bfdd-ad737424218a",
+        "name": "Paid Time Off",
+        "description": "Enjoy well-deserved time off",
+        "eligibility_criteria": "Meet performance expectations",
+        "start_date": "2023-10-08T18:34:37.312Z",
+        "end_date": "2023-10-09T12:29:57.212Z",
+        "created_at": "2023-10-09T03:09:35.585Z",
+        "updated_at": "2023-10-09T02:25:08.263Z",
+        "employee_id": "136ae133-d0a8-4857-a80c-d683109faac1"
+      },
+      {
+        "id": "667b6382-b295-423c-a6fb-0e13e4a0fd1f",
+        "name": "Flexible Work Schedule",
+        "description": "Achieve work-life balance",
+        "eligibility_criteria": "Available to all employees",
+        "start_date": "2023-10-09T02:48:05.653Z",
+        "end_date": "2023-10-09T09:49:54.302Z",
+        "created_at": "2023-10-08T22:47:30.826Z",
+        "updated_at": "2023-10-09T02:14:17.195Z",
+        "employee_id": "eb876815-f7bd-408e-afa3-e6f94435559b"
+      },
+      {
+        "id": "32cc7b7d-6f0d-4404-9564-0d99f8dfa886",
+        "name": "Employee Discounts",
+        "description": "Save money with exclusive employee discounts",
+        "eligibility_criteria": "Subject to company policies",
+        "start_date": "2023-10-09T01:22:00.394Z",
+        "end_date": "2023-10-08T18:32:49.291Z",
+        "created_at": "2023-10-09T08:10:36.014Z",
+        "updated_at": "2023-10-08T21:48:08.310Z",
+        "employee_id": "136ae133-d0a8-4857-a80c-d683109faac1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bb4c5a2f-3b0b-48f3-95a0-0c587bc5264f",
+        "email": "Wallace_Ledner@roq.tech",
+        "firstName": "Neal",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1208.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "30bae438-5ea9-407e-8b18-42cf9a663a15",
+        "email": "Claude_Lang@roq.tech",
+        "firstName": "Seth",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58661689",
+        "tenantId": null
+      },
+      {
+        "reference": "03382634-a16f-4572-94d6-cd00fea7602b",
+        "email": "Myron.Haag@roq.tech",
+        "firstName": "Magnolia",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74458729",
+        "tenantId": null
+      },
+      {
+        "reference": "4548fe84-6edc-4d9c-8262-2eb1c582cdc0",
+        "email": "Nathan.Kessler@roq.tech",
+        "firstName": "Kelsie",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1077.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e455da9-6dd0-46fc-977c-25f7fbfaae4e",
+        "email": "Rosemarie67@roq.tech",
+        "firstName": "Bonita",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "b20f6122-8c4b-43c0-92ef-ffa3af8c95a1",
+        "employee_number": 23154,
+        "hire_date": "2023-10-08T14:54:16.552Z",
+        "job_title": "Software Engineer",
+        "department": "Engineering",
+        "salary": 33608,
+        "created_at": "2023-10-08T14:56:40.374Z",
+        "updated_at": "2023-10-08T18:06:40.870Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a092acdb-02b7-4330-9490-f10bdf664a30",
+        "employee_number": 54317,
+        "hire_date": "2023-10-09T01:57:29.542Z",
+        "job_title": "Marketing Manager",
+        "department": "Marketing",
+        "salary": 76167,
+        "created_at": "2023-10-08T18:05:06.871Z",
+        "updated_at": "2023-10-08T19:10:41.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9112f593-a84d-41fd-b942-aa095d5ac800",
+        "employee_number": 18869,
+        "hire_date": "2023-10-09T00:56:51.069Z",
+        "job_title": "Sales Representative",
+        "department": "Sales",
+        "salary": 23736,
+        "created_at": "2023-10-08T22:56:28.974Z",
+        "updated_at": "2023-10-08T23:02:07.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c3cdd96-7509-4235-8359-e4abc97cc167",
+        "employee_number": 20828,
+        "hire_date": "2023-10-08T14:28:51.972Z",
+        "job_title": "HR Coordinator",
+        "department": "Human Resources",
+        "salary": 49394,
+        "created_at": "2023-10-09T06:23:35.850Z",
+        "updated_at": "2023-10-09T05:33:20.317Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26490438-3934-45ec-9b30-7d9607c08425",
+        "employee_number": 69611,
+        "hire_date": "2023-10-08T16:08:51.220Z",
+        "job_title": "Operations Analyst",
+        "department": "Operations",
+        "salary": 479,
+        "created_at": "2023-10-09T12:01:08.679Z",
+        "updated_at": "2023-10-08T18:00:56.831Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "68a2ba56-166e-4b6c-b999-0a747e0202a6",
+        "name": "Leadership Development",
+        "description": "A comprehensive program for developing leadership skills",
+        "start_date": "2023-10-08T23:42:05.887Z",
+        "end_date": "2023-10-09T08:35:56.019Z",
+        "location": "New York",
+        "created_at": "2023-10-09T09:08:29.890Z",
+        "updated_at": "2023-10-09T10:15:57.634Z",
+        "employee_id": "26490438-3934-45ec-9b30-7d9607c08425"
+      },
+      {
+        "id": "b4d07321-ad34-4f94-88b7-6680bac7e77d",
+        "name": "Technical Skills Workshop",
+        "description": "Hands-on workshop to enhance technical skills",
+        "start_date": "2023-10-08T19:13:03.674Z",
+        "end_date": "2023-10-08T17:11:38.100Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-09T12:59:57.507Z",
+        "updated_at": "2023-10-09T05:52:52.226Z",
+        "employee_id": "3c3cdd96-7509-4235-8359-e4abc97cc167"
+      },
+      {
+        "id": "c02a30cc-2bfd-4dc2-bb56-304f0ecae4b4",
+        "name": "Sales Techniques Training",
+        "description": "Training on effective sales techniques",
+        "start_date": "2023-10-08T20:41:31.097Z",
+        "end_date": "2023-10-09T06:33:03.828Z",
+        "location": "Chicago",
+        "created_at": "2023-10-09T00:29:42.829Z",
+        "updated_at": "2023-10-09T10:53:59.303Z",
+        "employee_id": "3c3cdd96-7509-4235-8359-e4abc97cc167"
+      },
+      {
+        "id": "739e7a2b-97f0-4c17-a8a5-27fe5e3dde48",
+        "name": "Customer Service Training",
+        "description": "Customer service training for improving customer satisfaction",
+        "start_date": "2023-10-09T02:56:37.934Z",
+        "end_date": "2023-10-09T07:48:34.517Z",
+        "location": "Los Angeles",
+        "created_at": "2023-10-09T12:55:31.271Z",
+        "updated_at": "2023-10-09T12:09:50.365Z",
+        "employee_id": "26490438-3934-45ec-9b30-7d9607c08425"
+      },
+      {
+        "id": "ca35d2cc-b9f8-448e-a7a8-329695737c7d",
+        "name": "Project Management Seminar",
+        "description": "Seminar on project management best practices",
+        "start_date": "2023-10-09T08:12:50.982Z",
+        "end_date": "2023-10-08T20:30:41.855Z",
+        "location": "Seattle",
+        "created_at": "2023-10-08T14:26:04.173Z",
+        "updated_at": "2023-10-09T05:48:32.675Z",
+        "employee_id": "9112f593-a84d-41fd-b942-aa095d5ac800"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "3ae73065-5264-4139-a3e6-ca84f7f0f42f",
+        "review_date": "2023-10-08T19:03:12.437Z",
+        "reviewer": "Manager A",
+        "rating": 30528,
+        "comments": "Excellent performance. Keep up the good work!",
+        "created_at": "2023-10-09T01:02:54.911Z",
+        "updated_at": "2023-10-08T20:43:41.584Z",
+        "employee_id": "a092acdb-02b7-4330-9490-f10bdf664a30"
+      },
+      {
+        "id": "792e4341-bf58-4277-8876-7a7f6c888909",
+        "review_date": "2023-10-08T20:27:48.605Z",
+        "reviewer": "Manager B",
+        "rating": 1849,
+        "comments": "Needs improvement in communication skills",
+        "created_at": "2023-10-08T20:03:14.239Z",
+        "updated_at": "2023-10-09T12:29:56.969Z",
+        "employee_id": "3c3cdd96-7509-4235-8359-e4abc97cc167"
+      },
+      {
+        "id": "af779542-db69-4789-8ae8-d06088ecd95e",
+        "review_date": "2023-10-09T07:31:48.283Z",
+        "reviewer": "Manager C",
+        "rating": 28684,
+        "comments": "Consistently meets or exceeds targets",
+        "created_at": "2023-10-09T05:27:19.611Z",
+        "updated_at": "2023-10-09T12:08:45.369Z",
+        "employee_id": "b20f6122-8c4b-43c0-92ef-ffa3af8c95a1"
+      },
+      {
+        "id": "07b7f5b8-c754-4817-9a6b-bf9db0723c6a",
+        "review_date": "2023-10-09T06:44:09.574Z",
+        "reviewer": "Manager D",
+        "rating": 88825,
+        "comments": "Demonstrates strong problem-solving abilities",
+        "created_at": "2023-10-08T15:47:04.705Z",
+        "updated_at": "2023-10-09T10:20:19.318Z",
+        "employee_id": "a092acdb-02b7-4330-9490-f10bdf664a30"
+      },
+      {
+        "id": "5b782198-1f20-4bb1-b393-eb3baec00c1d",
+        "review_date": "2023-10-08T23:42:38.008Z",
+        "reviewer": "Manager E",
+        "rating": 58562,
+        "comments": "Great attention to detail",
+        "created_at": "2023-10-09T10:54:18.087Z",
+        "updated_at": "2023-10-09T10:38:27.902Z",
+        "employee_id": "9112f593-a84d-41fd-b942-aa095d5ac800"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "d19feb9d-2903-42c1-a039-87d33e3f6ef5",
+        "name": "Health Insurance",
+        "description": "Comprehensive health insurance coverage for employees",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-09T04:24:06.946Z",
+        "end_date": "2023-10-09T10:45:35.706Z",
+        "created_at": "2023-10-08T18:30:27.189Z",
+        "updated_at": "2023-10-08T14:33:10.200Z",
+        "employee_id": "26490438-3934-45ec-9b30-7d9607c08425"
+      },
+      {
+        "id": "2dc73551-c1cd-4ebf-b012-07c67d198acb",
+        "name": "Retirement Plan",
+        "description": "Retirement plan with employer matching contributions",
+        "eligibility_criteria": "Employees with at least 1 year of service",
+        "start_date": "2023-10-08T21:48:01.696Z",
+        "end_date": "2023-10-08T19:28:45.016Z",
+        "created_at": "2023-10-09T13:16:20.210Z",
+        "updated_at": "2023-10-09T00:44:46.276Z",
+        "employee_id": "26490438-3934-45ec-9b30-7d9607c08425"
+      },
+      {
+        "id": "2093c3f7-bf54-48b1-8443-3b9e38aa8237",
+        "name": "Paid Time Off",
+        "description": "Generous paid time off policy for work-life balance",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-08T16:31:12.016Z",
+        "end_date": "2023-10-09T00:56:00.183Z",
+        "created_at": "2023-10-08T18:37:26.234Z",
+        "updated_at": "2023-10-08T18:40:12.937Z",
+        "employee_id": "26490438-3934-45ec-9b30-7d9607c08425"
+      },
+      {
+        "id": "a0104ef0-e346-4220-ba1d-ad8c6d081427",
+        "name": "Employee Wellness Program",
+        "description": "Wellness program promoting employee health and well-being",
+        "eligibility_criteria": "Employees in good standing",
+        "start_date": "2023-10-08T20:20:29.186Z",
+        "end_date": "2023-10-08T21:59:54.129Z",
+        "created_at": "2023-10-09T04:02:21.093Z",
+        "updated_at": "2023-10-08T14:14:59.998Z",
+        "employee_id": "a092acdb-02b7-4330-9490-f10bdf664a30"
+      },
+      {
+        "id": "0d0bb927-9d4a-459a-abff-72b0d1dd2354",
+        "name": "Tuition Reimbursement",
+        "description": "Financial support for continuing education",
+        "eligibility_criteria": "Eligible employees based on job level",
+        "start_date": "2023-10-09T12:49:06.999Z",
+        "end_date": "2023-10-08T15:08:36.233Z",
+        "created_at": "2023-10-08T20:20:15.098Z",
+        "updated_at": "2023-10-09T03:28:07.503Z",
+        "employee_id": "b20f6122-8c4b-43c0-92ef-ffa3af8c95a1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8e7fdbe9-8201-4a24-89a7-2565f0d84341",
+        "email": "Rowland99@roq.tech",
+        "firstName": "Columbus",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/403.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80f16662-9a35-4c5f-91df-dd530b87fa98",
+        "email": "Alice91@roq.tech",
+        "firstName": "Eloise",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/600.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d79da6b8-96fd-4a2a-bde3-57919cc3b03a",
+        "email": "Etha.Ritchie14@roq.tech",
+        "firstName": "Angie",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22042063",
+        "tenantId": null
+      },
+      {
+        "reference": "7daac378-5ba3-4221-8731-4d1560389ed7",
+        "email": "Kenyatta56@roq.tech",
+        "firstName": "Presley",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51938042",
+        "tenantId": null
+      },
+      {
+        "reference": "f78267a3-5dd1-4c30-88dd-0803d714136c",
+        "email": "Margarette.Wintheiser45@roq.tech",
+        "firstName": "Alfonso",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/65.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "ffb0d2ff-3672-4fd9-8449-33ac9f91b851",
+        "employee_number": 29468,
+        "hire_date": "2023-10-09T08:51:33.451Z",
+        "job_title": "Manager",
+        "department": "Sales",
+        "salary": 60012,
+        "created_at": "2023-10-08T17:03:39.710Z",
+        "updated_at": "2023-10-09T04:32:39.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fdf9f45-b398-47e9-95f4-60f86b0e8e1c",
+        "employee_number": 27392,
+        "hire_date": "2023-10-08T15:00:59.135Z",
+        "job_title": "Engineer",
+        "department": "Marketing",
+        "salary": 44837,
+        "created_at": "2023-10-09T12:54:33.349Z",
+        "updated_at": "2023-10-09T05:42:51.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab15ce89-a6af-4dac-9219-a02cf9a014a5",
+        "employee_number": 53842,
+        "hire_date": "2023-10-08T21:59:04.912Z",
+        "job_title": "Supervisor",
+        "department": "Finance",
+        "salary": 77618,
+        "created_at": "2023-10-08T14:50:23.123Z",
+        "updated_at": "2023-10-09T04:58:37.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5688e536-4fed-47b1-a81d-95f9a2b706f2",
+        "employee_number": 81070,
+        "hire_date": "2023-10-09T07:42:17.811Z",
+        "job_title": "Analyst",
+        "department": "HR",
+        "salary": 96749,
+        "created_at": "2023-10-08T21:28:20.077Z",
+        "updated_at": "2023-10-08T22:44:36.591Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd",
+        "employee_number": 97410,
+        "hire_date": "2023-10-08T13:42:32.992Z",
+        "job_title": "Coordinator",
+        "department": "Operations",
+        "salary": 50009,
+        "created_at": "2023-10-09T04:26:22.159Z",
+        "updated_at": "2023-10-08T18:25:04.863Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "ee820368-240c-48fa-b553-50f96998187c",
+        "name": "Leadership Training",
+        "description": "Enhance leadership skills",
+        "start_date": "2023-10-08T19:35:47.695Z",
+        "end_date": "2023-10-09T02:49:05.190Z",
+        "location": "New York",
+        "created_at": "2023-10-08T20:38:07.616Z",
+        "updated_at": "2023-10-09T02:58:55.544Z",
+        "employee_id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd"
+      },
+      {
+        "id": "5ca0f9b6-4485-4074-b4bd-ac0febd8efb8",
+        "name": "Technical Skills Workshop",
+        "description": "Improve technical knowledge",
+        "start_date": "2023-10-08T19:02:35.942Z",
+        "end_date": "2023-10-09T06:11:29.495Z",
+        "location": "Los Angeles",
+        "created_at": "2023-10-09T03:02:11.681Z",
+        "updated_at": "2023-10-09T05:30:04.547Z",
+        "employee_id": "ab15ce89-a6af-4dac-9219-a02cf9a014a5"
+      },
+      {
+        "id": "d424c787-d0e9-4ec6-8e02-3598ac90bd3a",
+        "name": "Communication Seminar",
+        "description": "Develop effective communication",
+        "start_date": "2023-10-08T23:25:38.068Z",
+        "end_date": "2023-10-09T06:21:42.948Z",
+        "location": "Chicago",
+        "created_at": "2023-10-09T11:21:44.411Z",
+        "updated_at": "2023-10-09T10:30:19.382Z",
+        "employee_id": "5688e536-4fed-47b1-a81d-95f9a2b706f2"
+      },
+      {
+        "id": "dba86a2c-6e9e-4b6a-885d-55dc22effbe4",
+        "name": "Team Building Retreat",
+        "description": "Strengthen teamwork",
+        "start_date": "2023-10-09T07:34:50.207Z",
+        "end_date": "2023-10-08T22:21:23.463Z",
+        "location": "San Francisco",
+        "created_at": "2023-10-08T20:10:33.023Z",
+        "updated_at": "2023-10-09T12:43:39.146Z",
+        "employee_id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd"
+      },
+      {
+        "id": "6275b33a-db77-46b4-bd8d-2ae7704cb16b",
+        "name": "Project Management Course",
+        "description": "Learn project management techniques",
+        "start_date": "2023-10-08T16:08:50.362Z",
+        "end_date": "2023-10-08T16:52:41.295Z",
+        "location": "Seattle",
+        "created_at": "2023-10-09T04:23:41.544Z",
+        "updated_at": "2023-10-08T15:01:11.625Z",
+        "employee_id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "c2179bc7-f13b-46d3-9e75-1b721a5f8c28",
+        "review_date": "2023-10-08T18:39:11.427Z",
+        "reviewer": "Manager A",
+        "rating": 13831,
+        "comments": "Outstanding performance",
+        "created_at": "2023-10-09T12:09:28.855Z",
+        "updated_at": "2023-10-08T14:48:40.430Z",
+        "employee_id": "ffb0d2ff-3672-4fd9-8449-33ac9f91b851"
+      },
+      {
+        "id": "3ba8c5a4-0beb-4f64-9b7b-452006ab2134",
+        "review_date": "2023-10-09T00:52:49.522Z",
+        "reviewer": "Manager B",
+        "rating": 65858,
+        "comments": "Needs improvement in communication",
+        "created_at": "2023-10-08T19:32:05.234Z",
+        "updated_at": "2023-10-09T01:30:58.415Z",
+        "employee_id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd"
+      },
+      {
+        "id": "3d9fa266-62b3-4e4b-a251-36a6f5fe209d",
+        "review_date": "2023-10-09T07:55:34.931Z",
+        "reviewer": "Supervisor A",
+        "rating": 84072,
+        "comments": "Great teamwork",
+        "created_at": "2023-10-09T05:07:18.281Z",
+        "updated_at": "2023-10-09T06:34:57.935Z",
+        "employee_id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd"
+      },
+      {
+        "id": "6b258775-68ca-45cc-b9d1-65a3082433f5",
+        "review_date": "2023-10-09T05:27:24.865Z",
+        "reviewer": "Supervisor B",
+        "rating": 21930,
+        "comments": "Attention to detail",
+        "created_at": "2023-10-09T11:04:54.055Z",
+        "updated_at": "2023-10-08T17:21:03.084Z",
+        "employee_id": "0fdf9f45-b398-47e9-95f4-60f86b0e8e1c"
+      },
+      {
+        "id": "2070012b-2fad-448c-9e30-c4befe1e12a4",
+        "review_date": "2023-10-08T21:46:07.498Z",
+        "reviewer": "Team Lead",
+        "rating": 58930,
+        "comments": "Excellent problem-solving skills",
+        "created_at": "2023-10-09T04:46:22.644Z",
+        "updated_at": "2023-10-08T18:12:41.174Z",
+        "employee_id": "ab15ce89-a6af-4dac-9219-a02cf9a014a5"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "98c22076-d617-49c4-8df5-171686f29270",
+        "name": "Health Insurance",
+        "description": "Comprehensive health coverage",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-09T03:16:53.620Z",
+        "end_date": "2023-10-08T20:33:52.790Z",
+        "created_at": "2023-10-08T20:10:06.169Z",
+        "updated_at": "2023-10-09T12:41:08.871Z",
+        "employee_id": "ab15ce89-a6af-4dac-9219-a02cf9a014a5"
+      },
+      {
+        "id": "a43163fd-3dc4-4248-8e6b-c33a0afc5666",
+        "name": "Retirement Plan",
+        "description": "Secure your future with a retirement plan",
+        "eligibility_criteria": "Minimum service period of 1 year",
+        "start_date": "2023-10-08T18:20:21.084Z",
+        "end_date": "2023-10-09T04:06:30.879Z",
+        "created_at": "2023-10-09T06:49:27.831Z",
+        "updated_at": "2023-10-09T08:29:45.531Z",
+        "employee_id": "ab15ce89-a6af-4dac-9219-a02cf9a014a5"
+      },
+      {
+        "id": "22fa4da3-c6ab-4237-8fee-34f836414c9a",
+        "name": "Paid Time Off",
+        "description": "Enjoy time off for vacation and personal needs",
+        "eligibility_criteria": "Based on performance",
+        "start_date": "2023-10-08T21:51:04.043Z",
+        "end_date": "2023-10-08T14:50:57.985Z",
+        "created_at": "2023-10-09T13:12:17.651Z",
+        "updated_at": "2023-10-08T17:30:42.084Z",
+        "employee_id": "87081410-4b8d-4775-b9dd-c36d0b42a7dd"
+      },
+      {
+        "id": "b54630e2-b264-4911-8ab4-737f5c311824",
+        "name": "Employee Discounts",
+        "description": "Exclusive discounts on products and services",
+        "eligibility_criteria": "Available to all employees",
+        "start_date": "2023-10-08T17:24:09.574Z",
+        "end_date": "2023-10-09T12:51:44.246Z",
+        "created_at": "2023-10-08T20:36:56.871Z",
+        "updated_at": "2023-10-09T02:12:13.291Z",
+        "employee_id": "0fdf9f45-b398-47e9-95f4-60f86b0e8e1c"
+      },
+      {
+        "id": "e526f1ac-9d7a-4b68-8959-65f9b6f6917b",
+        "name": "Professional Development",
+        "description": "Opportunities for career growth and skill enhancement",
+        "eligibility_criteria": "Subject to company policies",
+        "start_date": "2023-10-09T00:58:19.243Z",
+        "end_date": "2023-10-09T06:23:51.829Z",
+        "created_at": "2023-10-09T11:47:34.178Z",
+        "updated_at": "2023-10-09T01:43:30.681Z",
+        "employee_id": "ffb0d2ff-3672-4fd9-8449-33ac9f91b851"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "680210aa-bc68-4577-abb9-e00ace468730",
+        "email": "Audrey.Fahey35@roq.tech",
+        "firstName": "Nathanael",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/627.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a71bc0bb-599a-4ff8-a8b7-8f6a26e6b62e",
+        "email": "Mariam.Treutel@roq.tech",
+        "firstName": "Antonina",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/469.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66cd68b1-b215-4163-8c4d-4dd2867b5b73",
+        "email": "Brycen14@roq.tech",
+        "firstName": "Lamar",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "226d58c2-f0a3-4897-9f54-ecb2caaecc05",
+        "email": "Rosa_Boehm0@roq.tech",
+        "firstName": "Keven",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "527c676f-4306-469c-b061-c7c59b73129c",
+        "email": "Juwan_Bogan57@roq.tech",
+        "firstName": "Aleen",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71032966",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "13f52218-cb5c-4fad-bf2e-fb88b560c651",
+        "employee_number": 4986,
+        "hire_date": "2023-10-08T18:54:15.376Z",
+        "job_title": "Software Engineer",
+        "department": "Engineering",
+        "salary": 41724,
+        "created_at": "2023-10-09T09:58:32.481Z",
+        "updated_at": "2023-10-09T11:55:39.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67f04830-a8e0-47e7-87f6-8f812ed1399c",
+        "employee_number": 54155,
+        "hire_date": "2023-10-09T10:43:46.321Z",
+        "job_title": "Sales Manager",
+        "department": "Sales",
+        "salary": 17334,
+        "created_at": "2023-10-08T17:27:41.147Z",
+        "updated_at": "2023-10-09T09:38:37.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb9c2e75-d884-4778-b8f3-691b23ef827a",
+        "employee_number": 17879,
+        "hire_date": "2023-10-08T16:11:00.216Z",
+        "job_title": "Marketing Specialist",
+        "department": "Marketing",
+        "salary": 54166,
+        "created_at": "2023-10-08T19:37:11.363Z",
+        "updated_at": "2023-10-08T17:07:21.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64d08870-e931-4861-bc62-b110b6aa2eaf",
+        "employee_number": 94510,
+        "hire_date": "2023-10-08T23:22:14.881Z",
+        "job_title": "HR Coordinator",
+        "department": "Human Resources",
+        "salary": 3071,
+        "created_at": "2023-10-09T02:37:33.164Z",
+        "updated_at": "2023-10-08T14:30:59.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c",
+        "employee_number": 93327,
+        "hire_date": "2023-10-09T05:14:29.028Z",
+        "job_title": "Finance Analyst",
+        "department": "Finance",
+        "salary": 26178,
+        "created_at": "2023-10-08T23:29:03.412Z",
+        "updated_at": "2023-10-08T19:24:51.478Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "training": [
+      {
+        "id": "2b0e017d-50f4-4332-aaf8-cc087ccbb658",
+        "name": "Product Training",
+        "description": "Training on product features and usage",
+        "start_date": "2023-10-09T01:12:51.308Z",
+        "end_date": "2023-10-08T17:26:19.262Z",
+        "location": "New York",
+        "created_at": "2023-10-09T11:17:29.841Z",
+        "updated_at": "2023-10-09T06:21:46.084Z",
+        "employee_id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c"
+      },
+      {
+        "id": "15b2b0b4-de34-4cb4-a513-c48a6c608fe3",
+        "name": "Leadership Workshop",
+        "description": "Workshop on effective leadership strategies",
+        "start_date": "2023-10-09T11:24:38.626Z",
+        "end_date": "2023-10-08T19:29:15.194Z",
+        "location": "London",
+        "created_at": "2023-10-09T08:16:45.086Z",
+        "updated_at": "2023-10-08T17:56:55.401Z",
+        "employee_id": "67f04830-a8e0-47e7-87f6-8f812ed1399c"
+      },
+      {
+        "id": "81706431-5f58-40e5-a27f-11a6cb35e049",
+        "name": "Communication Skills",
+        "description": "Improving communication skills in the workplace",
+        "start_date": "2023-10-08T23:26:54.649Z",
+        "end_date": "2023-10-08T16:57:47.872Z",
+        "location": "Tokyo",
+        "created_at": "2023-10-09T06:49:11.065Z",
+        "updated_at": "2023-10-09T07:40:30.207Z",
+        "employee_id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c"
+      },
+      {
+        "id": "3e591571-b6f5-424f-b981-d7235decf17c",
+        "name": "Time Management",
+        "description": "Managing time effectively for increased productivity",
+        "start_date": "2023-10-08T21:10:47.208Z",
+        "end_date": "2023-10-08T19:21:36.364Z",
+        "location": "Sydney",
+        "created_at": "2023-10-08T13:48:47.039Z",
+        "updated_at": "2023-10-08T14:29:21.930Z",
+        "employee_id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c"
+      },
+      {
+        "id": "c38506da-7d0a-41b9-a7c0-a2579e564f72",
+        "name": "Team Building",
+        "description": "Building strong and cohesive teams",
+        "start_date": "2023-10-09T02:46:21.145Z",
+        "end_date": "2023-10-09T02:20:47.723Z",
+        "location": "Berlin",
+        "created_at": "2023-10-08T16:54:21.172Z",
+        "updated_at": "2023-10-09T00:27:55.229Z",
+        "employee_id": "67f04830-a8e0-47e7-87f6-8f812ed1399c"
+      }
+    ],
+    "performance_review": [
+      {
+        "id": "252e3bc7-6655-45f3-939a-818399776d5e",
+        "review_date": "2023-10-08T23:47:06.527Z",
+        "reviewer": "Manager A",
+        "rating": 58685,
+        "comments": "Excellent performance, exceeded expectations",
+        "created_at": "2023-10-09T06:40:28.236Z",
+        "updated_at": "2023-10-09T00:52:12.504Z",
+        "employee_id": "67f04830-a8e0-47e7-87f6-8f812ed1399c"
+      },
+      {
+        "id": "a6eae726-3079-4117-bbf4-88b93f2c90e1",
+        "review_date": "2023-10-09T02:29:22.532Z",
+        "reviewer": "Manager B",
+        "rating": 73059,
+        "comments": "Good job overall, room for improvement in certain areas",
+        "created_at": "2023-10-08T20:48:35.221Z",
+        "updated_at": "2023-10-08T21:51:24.659Z",
+        "employee_id": "67f04830-a8e0-47e7-87f6-8f812ed1399c"
+      },
+      {
+        "id": "bc1c27a9-5111-43b0-9e6a-14cc01e471c6",
+        "review_date": "2023-10-09T01:15:37.257Z",
+        "reviewer": "Manager C",
+        "rating": 8713,
+        "comments": "Consistently meets expectations, reliable team member",
+        "created_at": "2023-10-09T02:40:07.062Z",
+        "updated_at": "2023-10-09T04:56:55.232Z",
+        "employee_id": "64d08870-e931-4861-bc62-b110b6aa2eaf"
+      },
+      {
+        "id": "24e9b221-b97d-4639-800b-6de677c8739c",
+        "review_date": "2023-10-09T06:31:47.651Z",
+        "reviewer": "Manager D",
+        "rating": 3816,
+        "comments": "Needs improvement in communication skills",
+        "created_at": "2023-10-09T13:18:57.807Z",
+        "updated_at": "2023-10-09T09:28:12.151Z",
+        "employee_id": "cb9c2e75-d884-4778-b8f3-691b23ef827a"
+      },
+      {
+        "id": "a3929ad0-7f08-4783-8798-6f2bcb029552",
+        "review_date": "2023-10-08T23:10:09.236Z",
+        "reviewer": "Manager E",
+        "rating": 81551,
+        "comments": "Outstanding performance, a valuable asset to the team",
+        "created_at": "2023-10-08T17:30:10.313Z",
+        "updated_at": "2023-10-08T19:50:30.981Z",
+        "employee_id": "64d08870-e931-4861-bc62-b110b6aa2eaf"
+      }
+    ],
+    "benefit": [
+      {
+        "id": "b336f58d-6ec0-420b-939a-fe35b68400e5",
+        "name": "Health Insurance",
+        "description": "Comprehensive health insurance coverage for employees and their families",
+        "eligibility_criteria": "Full-time employees",
+        "start_date": "2023-10-08T23:23:17.908Z",
+        "end_date": "2023-10-09T00:54:38.347Z",
+        "created_at": "2023-10-09T05:56:40.186Z",
+        "updated_at": "2023-10-09T05:30:31.129Z",
+        "employee_id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c"
+      },
+      {
+        "id": "f31ecc4a-e899-4163-a32c-0b1c854c5aa9",
+        "name": "Paid Time Off",
+        "description": "Generous paid time off policy to promote work-life balance",
+        "eligibility_criteria": "Employees with at least 1 year of service",
+        "start_date": "2023-10-09T04:33:39.561Z",
+        "end_date": "2023-10-08T17:08:19.929Z",
+        "created_at": "2023-10-09T01:01:50.169Z",
+        "updated_at": "2023-10-08T15:45:53.945Z",
+        "employee_id": "cb9c2e75-d884-4778-b8f3-691b23ef827a"
+      },
+      {
+        "id": "3d41cdde-c6b7-40b3-a99a-3a0a7a61e068",
+        "name": "Retirement Plan",
+        "description": "Retirement plan with employer matching contributions",
+        "eligibility_criteria": "All employees",
+        "start_date": "2023-10-09T03:01:08.653Z",
+        "end_date": "2023-10-09T03:47:52.362Z",
+        "created_at": "2023-10-08T19:20:13.547Z",
+        "updated_at": "2023-10-09T10:07:19.460Z",
+        "employee_id": "13f52218-cb5c-4fad-bf2e-fb88b560c651"
+      },
+      {
+        "id": "0bbbd063-be8d-4fd4-824f-b50c8212d684",
+        "name": "Flexible Work Schedule",
+        "description": "Flexibility in work hours and remote work options",
+        "eligibility_criteria": "Employees in managerial positions",
+        "start_date": "2023-10-09T09:13:17.865Z",
+        "end_date": "2023-10-09T04:42:36.133Z",
+        "created_at": "2023-10-09T01:25:42.444Z",
+        "updated_at": "2023-10-08T23:32:50.770Z",
+        "employee_id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c"
+      },
+      {
+        "id": "be34f5a0-ac8e-43e5-aa3d-2764c382acdc",
+        "name": "Professional Development",
+        "description": "Opportunities for professional growth and skill development",
+        "eligibility_criteria": "Employees in specific departments",
+        "start_date": "2023-10-09T01:44:36.192Z",
+        "end_date": "2023-10-09T11:05:26.054Z",
+        "created_at": "2023-10-09T06:20:45.479Z",
+        "updated_at": "2023-10-08T17:13:11.719Z",
+        "employee_id": "67a34cae-5af2-4eec-8a7c-1ceb9071977c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bbb78e7c-663f-4709-be3d-21e2a1083a2c",
+        "email": "Cory_Nolan62@roq.tech",
+        "firstName": "Penelope",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22174561",
+        "tenantId": null
+      },
+      {
+        "reference": "4a1dba8e-8087-47ab-b484-cd320aa3d2d3",
+        "email": "Alec38@roq.tech",
+        "firstName": "Travis",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e78c106-1d59-4259-8fbc-c8f30de03deb",
+        "email": "Tia25@roq.tech",
+        "firstName": "Audrey",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7d5458d-56b9-4fbc-9c86-77eec8c4c7db",
+        "email": "Cordelia.Will3@roq.tech",
+        "firstName": "Rory",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2319227",
+        "tenantId": null
+      },
+      {
+        "reference": "a95d3c5b-a72b-4d11-8d06-0e64534e4dc1",
+        "email": "Darion.Ledner31@roq.tech",
+        "firstName": "Murphy",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89279108",
+        "tenantId": null
+      }
+    ]
+  }
+]
